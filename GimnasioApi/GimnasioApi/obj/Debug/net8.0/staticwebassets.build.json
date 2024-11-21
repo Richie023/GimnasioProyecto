@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "2P8HlKUUxK3SPXemKjkODX+21UykeckMWyIQmuU5qcI=",
+  "Source": "GimnasioApi",
+  "BasePath": "_content/GimnasioApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

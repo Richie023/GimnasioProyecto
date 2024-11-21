@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "GimnasioApi.Controllers.LoginController",
+    "Method": "CrearCuenta",
+    "RelativePath": "api/Login/CrearCuenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "GimnasioApi.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
