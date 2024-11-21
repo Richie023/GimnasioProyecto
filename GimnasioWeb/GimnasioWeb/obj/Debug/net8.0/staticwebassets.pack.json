@@ -1,819 +1,819 @@
 {
   "Files": [
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GimnasioWeb.bundle.scp.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GimnasioWeb.bundle.scp.css",
       "PackagePath": "staticwebassets\\GimnasioWeb.rwkad8q5rw.bundle.scp.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\css\\site.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\css\\style.min.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\style.min.css",
       "PackagePath": "staticwebassets\\css\\style.min.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\easing\\easing.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\easing\\easing.js",
       "PackagePath": "staticwebassets\\easing\\easing.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\easing\\easing.min.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\easing\\easing.min.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\favicon.ico",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\flaticon\\backup.txt",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\flaticon\\backup.txt",
       "PackagePath": "staticwebassets\\flaticon\\backup.txt"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\flaticon\\font\\Flaticon.eot",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\flaticon\\font\\Flaticon.eot",
       "PackagePath": "staticwebassets\\flaticon\\font\\Flaticon.eot"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\flaticon\\font\\Flaticon.svg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\flaticon\\font\\Flaticon.svg",
       "PackagePath": "staticwebassets\\flaticon\\font\\Flaticon.svg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\flaticon\\font\\Flaticon.ttf",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\flaticon\\font\\Flaticon.ttf",
       "PackagePath": "staticwebassets\\flaticon\\font\\Flaticon.ttf"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\flaticon\\font\\Flaticon.woff",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\flaticon\\font\\Flaticon.woff",
       "PackagePath": "staticwebassets\\flaticon\\font\\Flaticon.woff"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\flaticon\\font\\Flaticon.woff2",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\flaticon\\font\\Flaticon.woff2",
       "PackagePath": "staticwebassets\\flaticon\\font\\Flaticon.woff2"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\flaticon\\font\\_flaticon.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\flaticon\\font\\_flaticon.scss",
       "PackagePath": "staticwebassets\\flaticon\\font\\_flaticon.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\flaticon\\font\\flaticon.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\flaticon\\font\\flaticon.css",
       "PackagePath": "staticwebassets\\flaticon\\font\\flaticon.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\flaticon\\font\\flaticon.html",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\flaticon\\font\\flaticon.html",
       "PackagePath": "staticwebassets\\flaticon\\font\\flaticon.html"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\flaticon\\license\\license.pdf",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\flaticon\\license\\license.pdf",
       "PackagePath": "staticwebassets\\flaticon\\license\\license.pdf"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\about.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\about.jpg",
       "PackagePath": "staticwebassets\\img\\about.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\bg.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\bg.jpg",
       "PackagePath": "staticwebassets\\img\\bg.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\blog-1.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\blog-1.jpg",
       "PackagePath": "staticwebassets\\img\\blog-1.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\blog-2.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\blog-2.jpg",
       "PackagePath": "staticwebassets\\img\\blog-2.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\carousel-1.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\carousel-1.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\carousel-2.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\carousel-2.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\feature-1.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\feature-1.jpg",
       "PackagePath": "staticwebassets\\img\\feature-1.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\feature-2.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\feature-2.jpg",
       "PackagePath": "staticwebassets\\img\\feature-2.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\feature-3.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\feature-3.jpg",
       "PackagePath": "staticwebassets\\img\\feature-3.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\feature-4.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\feature-4.jpg",
       "PackagePath": "staticwebassets\\img\\feature-4.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\team-1.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\team-1.jpg",
       "PackagePath": "staticwebassets\\img\\team-1.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\team-2.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\team-2.jpg",
       "PackagePath": "staticwebassets\\img\\team-2.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\team-3.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\team-3.jpg",
       "PackagePath": "staticwebassets\\img\\team-3.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\team-4.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\team-4.jpg",
       "PackagePath": "staticwebassets\\img\\team-4.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\testimonial-1.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\testimonial-2.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\testimonial-2.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\testimonial-3.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\testimonial-3.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\img\\user.jpg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\user.jpg",
       "PackagePath": "staticwebassets\\img\\user.jpg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\js\\main.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\js\\site.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\easing\\easing.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\easing\\easing.min.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\backup.txt",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\backup.txt",
       "PackagePath": "staticwebassets\\lib\\flaticon\\backup.txt"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\Flaticon.eot",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\Flaticon.eot",
       "PackagePath": "staticwebassets\\lib\\flaticon\\font\\Flaticon.eot"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\Flaticon.svg",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\Flaticon.svg",
       "PackagePath": "staticwebassets\\lib\\flaticon\\font\\Flaticon.svg"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\Flaticon.ttf",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\Flaticon.ttf",
       "PackagePath": "staticwebassets\\lib\\flaticon\\font\\Flaticon.ttf"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\Flaticon.woff",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\Flaticon.woff",
       "PackagePath": "staticwebassets\\lib\\flaticon\\font\\Flaticon.woff"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\Flaticon.woff2",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\Flaticon.woff2",
       "PackagePath": "staticwebassets\\lib\\flaticon\\font\\Flaticon.woff2"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\_flaticon.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\_flaticon.scss",
       "PackagePath": "staticwebassets\\lib\\flaticon\\font\\_flaticon.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\flaticon.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\flaticon.css",
       "PackagePath": "staticwebassets\\lib\\flaticon\\font\\flaticon.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\flaticon.html",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\font\\flaticon.html",
       "PackagePath": "staticwebassets\\lib\\flaticon\\font\\flaticon.html"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\license\\license.pdf",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\flaticon\\license\\license.pdf",
       "PackagePath": "staticwebassets\\lib\\flaticon\\license\\license.pdf"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_code.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_custom-forms.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_input-group.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_jumbotron.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_media.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_print.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.css",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.css",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.css"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.css.map",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_float.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_size.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_align.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_background.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_display.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_float.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_position.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_text.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\style.scss",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\scss\\style.scss",
       "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
-      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\waypoints\\waypoints.min.js",
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\waypoints\\waypoints.min.js"
     },
     {

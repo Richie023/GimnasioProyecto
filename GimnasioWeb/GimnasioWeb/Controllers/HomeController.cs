@@ -8,7 +8,7 @@ namespace GimnasioWeb.Controllers
     {
    
 
-        public IActionResult Index()
+        public IActionResult Inicio()
         {
             return View();
         }

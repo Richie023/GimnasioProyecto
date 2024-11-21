@@ -1,0 +1,174 @@
+﻿CREATE DATABASE Gym;
+GO
+
+USE Gym;
+GO
+
+-- Tabla Usuarios
+CREATE TABLE Usuarios (
+    IdUsuario INT IDENTITY(1,1) PRIMARY KEY,
+	Identificacion NVARCHAR(100) NOT NULL,
+    Nombre NVARCHAR(100) NOT NULL,
+    Apellido NVARCHAR(100) NOT NULL,
+    Correo NVARCHAR(150) NOT NULL UNIQUE,
+    Contrasena NVARCHAR(255) NOT NULL,
+    Telefono NVARCHAR(15),
+    Rol INT NOT NULL,
+    FechaRegistro DATETIME DEFAULT GETDATE(),
+    Estado BIT DEFAULT 1
+);
+
+-- Tabla Entrenadores
+CREATE TABLE Entrenadores (
+    IdEntrenador INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(100) NOT NULL,
+    Apellido NVARCHAR(100) NOT NULL,
+    Especialidad NVARCHAR(100),
+    Correo NVARCHAR(150) NOT NULL UNIQUE,
+    Telefono NVARCHAR(15),
+    Disponibilidad NVARCHAR(50),
+    Estado BIT DEFAULT 1,
+	Rol INT NOT NULL
+);
+
+-- Tabla Clases
+CREATE TABLE Clases (
+    IdClase INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(100) NOT NULL,
+    Descripcion NVARCHAR(255),
+    Nivel NVARCHAR(50),
+    FechaHora DATETIME NOT NULL,
+    Duracion INT NOT NULL,
+    IdEntrenador INT FOREIGN KEY REFERENCES Entrenadores(IdEntrenador),
+    CapacidadMaxima INT NOT NULL,
+    Estado BIT DEFAULT 1
+);
+
+-- Tabla Reservas
+CREATE TABLE Reservas (
+    IdReserva INT IDENTITY(1,1) PRIMARY KEY,
+    IdUsuario INT FOREIGN KEY REFERENCES Usuarios(IdUsuario),
+    IdClase INT FOREIGN KEY REFERENCES Clases(IdClase),
+    FechaReserva DATETIME DEFAULT GETDATE(),
+    Estado NVARCHAR(50) DEFAULT 'Confirmada'
+);
+
+-- Tabla PlanesMembresia
+CREATE TABLE PlanesMembresia (
+    IdPlan INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(100) NOT NULL,
+    Descripcion NVARCHAR(255),
+    Precio DECIMAL(10,2) NOT NULL,
+    Duracion INT NOT NULL,
+    Beneficios NVARCHAR(255)
+);
+
+-- Tabla Pagos
+CREATE TABLE Pagos (
+    IdPago INT IDENTITY(1,1) PRIMARY KEY,
+    IdUsuario INT FOREIGN KEY REFERENCES Usuarios(IdUsuario),
+    IdPlan INT FOREIGN KEY REFERENCES PlanesMembresia(IdPlan),
+    FechaPago DATETIME DEFAULT GETDATE(),
+    Monto DECIMAL(10,2) NOT NULL,
+    Estado NVARCHAR(50) DEFAULT 'Completado'
+);
+
+-- Tabla Progresos
+CREATE TABLE Progresos (
+    IdProgreso INT IDENTITY(1,1) PRIMARY KEY,
+    IdUsuario INT FOREIGN KEY REFERENCES Usuarios(IdUsuario),
+    FechaRegistro DATETIME DEFAULT GETDATE(),
+    Peso DECIMAL(5,2),
+    Repeticiones INT,
+    Tiempo INT,
+    Comentario NVARCHAR(255)
+);
+
+-- Tabla Notificaciones
+CREATE TABLE Notificaciones (
+    IdNotificacion INT IDENTITY(1,1) PRIMARY KEY,
+    IdUsuario INT FOREIGN KEY REFERENCES Usuarios(IdUsuario),
+    Titulo NVARCHAR(100) NOT NULL,
+    Mensaje NVARCHAR(255) NOT NULL,
+    FechaEnvio DATETIME DEFAULT GETDATE(),
+    Estado BIT DEFAULT 0
+);
+
+-- Tabla Inventario
+CREATE TABLE Inventario (
+    IdProducto INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(100) NOT NULL,
+    Descripcion NVARCHAR(255),
+    Precio DECIMAL(10,2) NOT NULL,
+    Stock INT NOT NULL,
+    Estado BIT DEFAULT 1
+);
+-- Tabla Roles
+CREATE TABLE Roles (
+    IdRol INT IDENTITY(1,1) PRIMARY KEY,
+    NombreRol NVARCHAR(100) NOT NULL UNIQUE,
+    Estado BIT DEFAULT 1
+);
+
+-- Agregar relación con la tabla Usuarios
+ALTER TABLE Usuarios
+ADD CONSTRAINT FK_Usuarios_Roles FOREIGN KEY (Rol)
+REFERENCES Roles(IdRol);
+
+
+-- Agregar relación con la tabla Entrenadores
+ALTER TABLE Entrenadores
+ADD CONSTRAINT FK_Entrenadores_Roles FOREIGN KEY (Rol)
+REFERENCES Roles(IdRol);
+
+-- Tabla Errores
+CREATE TABLE Errores (
+    IdError INT IDENTITY(1,1) PRIMARY KEY,
+    Mensaje NVARCHAR(255) NOT NULL,
+    Detalle NVARCHAR(MAX),
+    FechaError DATETIME DEFAULT GETDATE(),
+    Usuario INT NULL FOREIGN KEY REFERENCES Usuarios(IdUsuario),
+    Estado NVARCHAR(50) DEFAULT 'Pendiente'
+);
+
+-- Insertar roles en la tabla Roles
+INSERT INTO Roles (NombreRol, Estado) 
+VALUES 
+('Administrador',1),
+('Entrenador', 1),
+('Cliente',  1);
+
+
+GO
+
+-- SP PARA RegistrarUsuario
+CREATE PROCEDURE RegistrarUsuario
+    @Identificacion NVARCHAR(100),
+    @Nombre NVARCHAR(100),
+    @Apellido NVARCHAR(100),
+    @Correo NVARCHAR(150),
+    @Contrasena NVARCHAR(255),
+    @Telefono NVARCHAR(15),
+    @Rol INT = 3 -- Valor por defecto: Cliente
+AS
+BEGIN
+    -- Validar que el correo no exista
+    IF EXISTS (SELECT 1 FROM Usuarios WHERE Correo = @Correo)
+    BEGIN
+        PRINT 'El correo ya está registrado.';
+        RETURN;
+    END
+
+    -- Validar que la identificación no exista
+    IF EXISTS (SELECT 1 FROM Usuarios WHERE Identificacion = @Identificacion)
+    BEGIN
+        PRINT 'La identificación ya está registrada.';
+        RETURN;
+    END
+
+    -- Insertar el usuario con el rol (predeterminado o especificado)
+    INSERT INTO Usuarios (Identificacion, Nombre, Apellido, Correo, Contrasena, Telefono, Rol)
+    VALUES (@Identificacion, @Nombre, @Apellido, @Correo, @Contrasena, @Telefono, @Rol);
+
+    PRINT 'Usuario registrado exitosamente.';
+END;

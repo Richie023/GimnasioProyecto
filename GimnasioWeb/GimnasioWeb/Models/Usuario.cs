@@ -9,7 +9,7 @@
         public string Correo { get; set; } = string.Empty;
         public string Contrasena { get; set; } = string.Empty;
 
-        public int Telefono  { get; set; }
+        public string Telefono  { get; set; } = string.Empty;
 
         public DateTime FechaRegistro { get; set; }
 

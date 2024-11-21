@@ -2,9 +2,9 @@
 
 @model GimnasioWeb.Models.Usuario
 
-@{
+@* @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-}
+} *@
 
 <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
 data-sidebar-position="fixed" data-header-position="fixed">
@@ -23,8 +23,9 @@ data-sidebar-position="fixed" data-header-position="fixed">
 
                             @if (ViewBag.Mensaje != null)
                             {
-                                <div class="alert alert-secondary text-center"></div>
+                                <div class="alert alert-secondary text-center">@ViewBag.Mensaje</div>
                             }
+
                             <!-- Formulario comienza aquí -->
                             <form asp-action="CrearCuenta" asp-controller="Login">
                                 <div class="mb-3">
@@ -58,7 +59,7 @@ data-sidebar-position="fixed" data-header-position="fixed">
 
                             <div class="d-flex align-items-center justify-content-center">
                                 <p class="fs-4 mb-0 fw-bold">¿Ya tienes una cuenta?</p>
-                                <a class="text-primary fw-bold ms-2" href="@Url.Action("InicioSesion","Login")">Inicia Sesión</a>
+                                <a class="text-primary fw-bold ms-2" href="@Url.Action("IniciarSesion","Login")">Inicia Sesión</a>
                             </div>
 
                         </div>

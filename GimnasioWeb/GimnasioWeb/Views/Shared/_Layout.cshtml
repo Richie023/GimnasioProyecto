@@ -1,4 +1,15 @@
-﻿<!DOCTYPE html>
+﻿﻿@{
+    var nombreUsuario = "Invitado";
+
+    @if (Context.Session.GetString("NombreUsuario") != null)
+    {
+        nombreUsuario = Context.Session.GetString("NombreUsuario");
+    }
+}
+
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -37,10 +48,20 @@
                         <div class="dropdown-menu text-capitalize">
                             <a href="blog.html" class="dropdown-item">Blog Grid</a>
                             <a href="single.html" class="dropdown-item">Blog Detail</a>
+
                         </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        <a href="@Url.Action("InicioSesion","Login")" class="btn btn-outline-primary mx-3 mt-2 d-block">Iniciar Sesión</a>
+
+                        </div>  
+                        @nombreUsuario
+                        @if (Context.Session.GetString("NombreUsuario") != null)
+                        {
+                            <a href="@Url.Action("CerrarSesion","Login")" class="btn btn-outline-primary mx-3 mt-2 d-block">Cerrar Sesión</a>
+                        }
+                        else
+                        {
+                            <a href="@Url.Action("IniciarSesion","Login")" class="btn btn-outline-primary mx-3 mt-2 d-block">Iniciar Sesión</a>
+                        }
+
 
                 </div>
             </div>

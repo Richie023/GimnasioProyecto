@@ -37,7 +37,7 @@ namespace GimnasioApi.Controllers
 
                 if (result > 0)
                 {
-                    respuesta.Codigo = 1;
+                    respuesta.Codigo = 0;
 
                 }
                 else
@@ -50,5 +50,38 @@ namespace GimnasioApi.Controllers
             }
                 
         }
+
+        [HttpPost]
+        [Route("IniciarSesion")]
+        public IActionResult IniciarSesion(Usuario Model)
+        {
+            using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
+            {
+                var respuesta = new Respuesta();
+                var result = context.QueryFirstOrDefault("IniciarSesion", new
+                {
+                    
+                    Model.Correo,
+                    Model.Contrasena,
+                   
+                });
+
+                if (result != null)
+                {
+                    respuesta.Codigo = 0;
+                    respuesta.Contenido = result;
+
+                }
+                else
+                {
+                    respuesta.Codigo = -1;
+                    respuesta.Mensaje = "Su infromacion no se ha validado correctamente";
+                }
+                return Ok(respuesta);
+
+            }
+
+        }
     }
 }
+
