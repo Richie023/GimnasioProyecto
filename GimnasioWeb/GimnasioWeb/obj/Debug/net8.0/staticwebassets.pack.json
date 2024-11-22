@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\style.min.css"
     },
     {
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\tabler-icons.css",
+      "PackagePath": "staticwebassets\\css\\tabler-icons.css"
+    },
+    {
       "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\easing\\easing.js",
       "PackagePath": "staticwebassets\\easing\\easing.js"
     },
@@ -135,6 +139,10 @@
     {
       "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\img\\user.jpg",
       "PackagePath": "staticwebassets\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\Calculadora.js",
+      "PackagePath": "staticwebassets\\js\\Calculadora.js"
     },
     {
       "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\main.js",

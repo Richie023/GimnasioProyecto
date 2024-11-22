@@ -13,6 +13,23 @@ namespace GimnasioWeb.Controllers
             return View();
         }
 
-    
+        [HttpGet]
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Clases()
+        {
+            return View();
+        }
+
+
+        [HttpGet]
+        public IActionResult Blog()
+        {
+            return View();
+        }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ujjmCoCb1bUnMivxrxan1Tn2qLfSKuYXAg+3KXwJDII=",
+  "Hash": "XeeYHYdEZo1DOu3YRYsEQa2dDZ0U8K9e9qr/G11C36c=",
   "Source": "GimnasioWeb",
   "BasePath": "_content/GimnasioWeb",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.min.css"
+    },
+    {
+      "Identity": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\tabler-icons.css",
+      "SourceId": "GimnasioWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\",
+      "BasePath": "_content/GimnasioWeb",
+      "RelativePath": "css/tabler-icons#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f9z9jh6p0e",
+      "Integrity": "PW6GOORXXIyVbPBsDBuaDAVJPCNa+/RLrUmUvAtB6Eg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tabler-icons.css"
     },
     {
       "Identity": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\easing\\easing.js",
@@ -750,6 +771,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\user.jpg"
+    },
+    {
+      "Identity": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\Calculadora.js",
+      "SourceId": "GimnasioWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\",
+      "BasePath": "_content/GimnasioWeb",
+      "RelativePath": "js/Calculadora#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "am5nq9sj7u",
+      "Integrity": "zuWRxbi5rAHxfrr1unovMnco7aXvsyT2XBHECblf4pg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Calculadora.js"
     },
     {
       "Identity": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\main.js",
@@ -4428,7 +4470,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:27:28 GMT"
+          "Value": "Wed, 20 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4473,7 +4515,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:27:28 GMT"
+          "Value": "Wed, 20 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4484,6 +4526,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-I5/IF5C3/tVqDPqr22h29gHzTOD1R8bl1FUm5S1EuJc="
+        }
+      ]
+    },
+    {
+      "Route": "css/tabler-icons.css",
+      "AssetFile": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\tabler-icons.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PW6GOORXXIyVbPBsDBuaDAVJPCNa+/RLrUmUvAtB6Eg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Sep 2024 19:54:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PW6GOORXXIyVbPBsDBuaDAVJPCNa+/RLrUmUvAtB6Eg="
+        }
+      ]
+    },
+    {
+      "Route": "css/tabler-icons.f9z9jh6p0e.css",
+      "AssetFile": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\tabler-icons.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PW6GOORXXIyVbPBsDBuaDAVJPCNa+/RLrUmUvAtB6Eg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Sep 2024 19:54:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9z9jh6p0e"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tabler-icons.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PW6GOORXXIyVbPBsDBuaDAVJPCNa+/RLrUmUvAtB6Eg="
         }
       ]
     },
@@ -5576,7 +5700,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 21:09:40 GMT"
+          "Value": "Fri, 22 Nov 2024 05:21:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5613,7 +5737,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 21:09:40 GMT"
+          "Value": "Fri, 22 Nov 2024 05:21:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5658,7 +5782,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 21:09:40 GMT"
+          "Value": "Fri, 22 Nov 2024 05:21:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5703,7 +5827,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 21:09:40 GMT"
+          "Value": "Fri, 22 Nov 2024 05:21:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7194,6 +7318,88 @@
       ]
     },
     {
+      "Route": "js/Calculadora.am5nq9sj7u.js",
+      "AssetFile": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\Calculadora.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zuWRxbi5rAHxfrr1unovMnco7aXvsyT2XBHECblf4pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 05:49:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "am5nq9sj7u"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Calculadora.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zuWRxbi5rAHxfrr1unovMnco7aXvsyT2XBHECblf4pg="
+        }
+      ]
+    },
+    {
+      "Route": "js/Calculadora.js",
+      "AssetFile": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\Calculadora.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zuWRxbi5rAHxfrr1unovMnco7aXvsyT2XBHECblf4pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Nov 2024 05:49:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zuWRxbi5rAHxfrr1unovMnco7aXvsyT2XBHECblf4pg="
+        }
+      ]
+    },
+    {
       "Route": "js/main.clba1qcc8v.js",
       "AssetFile": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\main.js",
       "Selectors": [],
@@ -7216,7 +7422,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:27:31 GMT"
+          "Value": "Wed, 20 Nov 2024 20:49:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7261,7 +7467,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 17:27:31 GMT"
+          "Value": "Wed, 20 Nov 2024 20:49:53 GMT"
         },
         {
           "Name": "Cache-Control",

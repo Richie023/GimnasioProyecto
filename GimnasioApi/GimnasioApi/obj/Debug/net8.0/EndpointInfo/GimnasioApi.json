@@ -66,6 +66,68 @@
           }
         }
       }
+    },
+    "/api/Login/RecuperarAcceso": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Usuario/ActualizarContrasenna": {
+      "put": {
+        "tags": [
+          "Usuario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -73,27 +135,31 @@
       "Usuario": {
         "type": "object",
         "properties": {
-          "nombre": {
+          "IdUsuario": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Nombre": {
             "type": "string",
             "nullable": true
           },
-          "identificacion": {
+          "Identificacion": {
             "type": "string",
             "nullable": true
           },
-          "apellido": {
+          "Apellido": {
             "type": "string",
             "nullable": true
           },
-          "correo": {
+          "Correo": {
             "type": "string",
             "nullable": true
           },
-          "contrasena": {
+          "Contrasena": {
             "type": "string",
             "nullable": true
           },
-          "telefono": {
+          "Telefono": {
             "type": "string",
             "nullable": true
           }

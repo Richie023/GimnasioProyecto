@@ -172,3 +172,50 @@ BEGIN
 
     PRINT 'Usuario registrado exitosamente.';
 END;
+
+CREATE PROCEDURE IniciarSesion
+    @Correo NVARCHAR(150),
+    @Contrasena NVARCHAR(255)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Validar las credenciales del usuario
+    SELECT IdUsuario, Nombre, Apellido, Rol, Estado
+    FROM Usuarios
+    WHERE Correo = @Correo AND Contrasena = @Contrasena AND Estado = 1;
+END;
+GO
+
+--validar usuario
+CREATE PROCEDURE ValidarUsuario
+    @Correo NVARCHAR(150)
+   
+AS
+BEGIN
+ 
+    -- Validar las credenciales del usuario
+    SELECT IdUsuario, Nombre, Apellido, Rol, Estado
+    FROM Usuarios
+    WHERE Correo = @Correo
+END;
+GO
+
+
+-- Actualizar contraseña 
+
+CREATE PROCEDURE [dbo].[ActualizarContrasena]
+    @IdUsuario BIGINT,
+    @Contrasena NVARCHAR(255),
+    @UsaClaveTemp BIT,
+	@Vigencia DATETIME
+    
+AS
+BEGIN
+    
+	UPDATE dbo.Usuarios
+	Set Contrasena = @Contrasena,
+	UsaClaveTemp = @UsaClaveTemp,
+	Vigencia = @Vigencia
+	WHERE @IdUsuario = IdUsuario
+END

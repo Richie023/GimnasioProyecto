@@ -1,5 +1,6 @@
 wwwroot\css\site.css
 wwwroot\css\style.min.css
+wwwroot\css\tabler-icons.css
 wwwroot\easing\easing.js
 wwwroot\easing\easing.min.js
 wwwroot\favicon.ico
@@ -31,6 +32,7 @@ wwwroot\img\testimonial-1.jpg
 wwwroot\img\testimonial-2.jpg
 wwwroot\img\testimonial-3.jpg
 wwwroot\img\user.jpg
+wwwroot\js\Calculadora.js
 wwwroot\js\main.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

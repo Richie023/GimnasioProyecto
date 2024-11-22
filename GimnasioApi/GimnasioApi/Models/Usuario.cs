@@ -2,6 +2,7 @@
 {
     public class Usuario
     {
+        public long IdUsuario { get; set; } = 0;
         public string Nombre { get; set; } = string.Empty;
         public string Identificacion { get; set; } = string.Empty;
 
