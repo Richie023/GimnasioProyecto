@@ -26,7 +26,7 @@ namespace GimnasioApi.Controllers
 
                 var UsaClaveTemp = false;
                 var Vigencia = DateTime.Now;
-                var result = context.Execute("ActualizarContrasenna", new { model.IdUsuario, model.Contrasena, UsaClaveTemp, Vigencia });
+                var result = context.Execute("ActualizarContrasena", new { model.IdUsuario, model.Contrasena, UsaClaveTemp, Vigencia });
 
                 if (result > 0)
                 {
@@ -41,6 +41,8 @@ namespace GimnasioApi.Controllers
                 return Ok(respuesta);
             }
         }
+        
+      
 
     }
 }

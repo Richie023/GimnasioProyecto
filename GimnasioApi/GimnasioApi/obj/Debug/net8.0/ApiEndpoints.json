@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "GimnasioApi.Controllers.EntrenadorController",
+    "Method": "crearClase",
+    "RelativePath": "api/Entrenador/crearClase",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "GimnasioApi.Models.Clase",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.EntrenadorController",
+    "Method": "CrearEntrenador",
+    "RelativePath": "api/Entrenador/CrearEntrenador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "GimnasioApi.Models.Entrenador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GimnasioApi.Controllers.LoginController",
     "Method": "CrearCuenta",
     "RelativePath": "api/Login/CrearCuenta",

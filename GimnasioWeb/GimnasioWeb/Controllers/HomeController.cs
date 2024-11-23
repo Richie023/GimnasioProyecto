@@ -31,5 +31,12 @@ namespace GimnasioWeb.Controllers
         {
             return View();
         }
+
+
+        [HttpGet]
+        public IActionResult Beneficios()
+        {
+            return View();
+        }
     }
 }
