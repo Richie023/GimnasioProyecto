@@ -11,10 +11,11 @@
         public string Contrasena { get; set; } = string.Empty;
 
         public string Telefono  { get; set; } = string.Empty;
+        public string ConfirmarContrasena { get; set; } = string.Empty;
 
         public DateTime FechaRegistro { get; set; }
 
-        public string ConfirmarContrasena { get; set; } = string.Empty;
+        public string Rol { get; set; } = string.Empty;
 
 
 

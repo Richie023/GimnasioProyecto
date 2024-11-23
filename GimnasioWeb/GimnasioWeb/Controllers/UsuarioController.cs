@@ -37,7 +37,7 @@ namespace SWeb.Controllers
                 return View();
             }
 
-            model.IdUsuario = long.Parse(HttpContext.Session.GetString("Consecutivo")!.ToString());
+            model.IdUsuario = long.Parse(HttpContext.Session.GetString("IdUsuario")!.ToString());
 
             using (var client = _http.CreateClient())
             {

@@ -196,13 +196,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GimnasioWeb.rwkad8q5rw.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-W7Wjr8LoSr1Lsjyip3DqwXG8Z3FkySTBnTAQmMfF7gc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022W7Wjr8LoSr1Lsjyip3DqwXG8Z3FkySTBnTAQmMfF7gc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 22 Nov 2024 05:21:57 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022W7Wjr8LoSr1Lsjyip3DqwXG8Z3FkySTBnTAQmMfF7gc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 Nov 2024 05:48:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GimnasioWeb/GimnasioWeb.rwkad8q5rw.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GimnasioWeb.rwkad8q5rw.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rwkad8q5rw"},{"Name":"integrity","Value":"sha256-W7Wjr8LoSr1Lsjyip3DqwXG8Z3FkySTBnTAQmMfF7gc="},{"Name":"label","Value":"_content/GimnasioWeb/GimnasioWeb.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022W7Wjr8LoSr1Lsjyip3DqwXG8Z3FkySTBnTAQmMfF7gc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 22 Nov 2024 05:21:57 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022W7Wjr8LoSr1Lsjyip3DqwXG8Z3FkySTBnTAQmMfF7gc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 Nov 2024 05:48:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GimnasioWeb/img/about.3ecuhvynrc.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\about.jpg'))</AssetFile>

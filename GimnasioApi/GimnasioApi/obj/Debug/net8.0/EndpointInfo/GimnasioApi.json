@@ -5,6 +5,68 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Entrenador/CrearEntrenador": {
+      "post": {
+        "tags": [
+          "Entrenador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Entrenador"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Entrenador"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Entrenador"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Entrenador/crearClase": {
+      "post": {
+        "tags": [
+          "Entrenador"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Clase"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Clase"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Clase"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Login/CrearCuenta": {
       "post": {
         "tags": [
@@ -132,6 +194,89 @@
   },
   "components": {
     "schemas": {
+      "Clase": {
+        "type": "object",
+        "properties": {
+          "IdClase": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "Descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "Nivel": {
+            "type": "string",
+            "nullable": true
+          },
+          "FechaHora": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "Duracion": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "IdEntrenador": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "CapacidadMaxima": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Estado": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Entrenador": {
+        "type": "object",
+        "properties": {
+          "IdEntrenador": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Identificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "Nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "Apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "Especialidad": {
+            "type": "string",
+            "nullable": true
+          },
+          "Correo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "Contrasena": {
+            "type": "string",
+            "nullable": true
+          },
+          "Disponibilidad": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Usuario": {
         "type": "object",
         "properties": {
@@ -159,7 +304,22 @@
             "type": "string",
             "nullable": true
           },
+          "ConfirmarContrasena": {
+            "type": "string",
+            "nullable": true
+          },
           "Telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "UsaClaveTemp": {
+            "type": "boolean"
+          },
+          "Vigencia": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "Rol": {
             "type": "string",
             "nullable": true
           }

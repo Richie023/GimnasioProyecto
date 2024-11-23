@@ -53,8 +53,9 @@ namespace GimnasioApi.Controllers
                 return Ok(respuesta);
 
             }
-
         }
+
+
 
         [HttpPost]
         [Route("IniciarSesion")]
@@ -176,7 +177,7 @@ namespace GimnasioApi.Controllers
 
             return Convert.ToBase64String(array);
         }
-
+        
 
         private string Decrypt(string texto)
         {
@@ -201,6 +202,7 @@ namespace GimnasioApi.Controllers
                 }
             }
         }
+
 
 
         private void EnviarCorreo(string destino, string asunto, string contenido)
