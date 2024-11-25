@@ -2,6 +2,7 @@
 using GimnasioWeb.Models;
 using static System.Net.WebRequestMethods;
 using GimnasioWeb.Servicios;
+using System.Text.Json;
 
 namespace GimnasioWeb.Controllers
 {
@@ -54,6 +55,26 @@ namespace GimnasioWeb.Controllers
         }
 
         [HttpGet]
+        public IActionResult ConsultarEntrenadores()
+        {
+            using (var client = _http.CreateClient())
+            {
+                string url = _conf.GetSection("Variables:UrlApi").Value + "Entrenador/ConsultarEntrenadores";
+
+                var response = client.GetAsync(url).Result;
+                var result = response.Content.ReadFromJsonAsync<Respuesta>().Result;
+
+                if (result != null && result.Codigo == 0)
+                {
+                    var datosContenido = JsonSerializer.Deserialize<List<Entrenador>>((JsonElement)result.Contenido!);
+                    return View(datosContenido);
+                }
+
+                return View(new List<Entrenador>());
+            }
+        }
+
+        [HttpGet]
         public IActionResult crearClase()
         {
             return View();
@@ -84,6 +105,25 @@ namespace GimnasioWeb.Controllers
 
 
 
+            }
+        }
+        [HttpGet]
+        public IActionResult ConsultarClases()
+        {
+            using (var client = _http.CreateClient())
+            {
+                string url = _conf.GetSection("Variables:UrlApi").Value + "Entrenador/ConsultarClases";
+
+                var response = client.GetAsync(url).Result;
+                var result = response.Content.ReadFromJsonAsync<Respuesta>().Result;
+
+                if (result != null && result.Codigo == 0)
+                {
+                    var datosContenido = JsonSerializer.Deserialize<List<Clase>>((JsonElement)result.Contenido!);
+                    return View(datosContenido);
+                }
+
+                return View(new List<Clase>());
             }
         }
     }

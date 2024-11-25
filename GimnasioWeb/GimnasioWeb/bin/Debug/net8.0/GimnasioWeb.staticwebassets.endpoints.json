@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 05:48:21 GMT"
+          "Value": "Mon, 25 Nov 2024 03:37:08 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,7 +74,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 05:48:21 GMT"
+          "Value": "Mon, 25 Nov 2024 03:37:08 GMT"
         }
       ],
       "EndpointProperties": [
@@ -245,6 +245,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-I5/IF5C3/tVqDPqr22h29gHzTOD1R8bl1FUm5S1EuJc="
+        }
+      ]
+    },
+    {
+      "Route": "css/tablas.7iznmbmoo8.css",
+      "AssetFile": "css/tablas.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gao84JqcKufZUm5EbrFtJ1ytPO9W2PPApC7VIUZWauU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 04:50:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7iznmbmoo8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gao84JqcKufZUm5EbrFtJ1ytPO9W2PPApC7VIUZWauU="
+        },
+        {
+          "Name": "label",
+          "Value": "css/tablas.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/tablas.css",
+      "AssetFile": "css/tablas.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gao84JqcKufZUm5EbrFtJ1ytPO9W2PPApC7VIUZWauU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 04:50:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gao84JqcKufZUm5EbrFtJ1ytPO9W2PPApC7VIUZWauU="
         }
       ]
     },

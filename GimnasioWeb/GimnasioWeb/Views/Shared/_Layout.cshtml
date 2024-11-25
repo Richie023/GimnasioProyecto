@@ -57,40 +57,52 @@
                                             <i class="ti ti-user fs-6"></i>
                                             <p class="mb-0 fs-3">Mi Perfil</p>
                                         </a>
+
                                         <a href="@Url.Action("CambiarContrasenna", "Usuario")" class="d-flex align-items-center gap-2 dropdown-item">
                                             <i class="ti ti-shield fs-6"></i>
                                             <p class="mb-0 fs-3">Seguridad</p>
-
                                         </a>
+
+                                        <a href="@Url.Action("crearCuenta", "Login")" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-shield fs-6"></i>
+                                            <p class="mb-0 fs-3">Registro de usuarios</p>
+                                        </a>
+
                                         <a href="@Url.Action("ConsultarUsuarios", "Usuario")" class="d-flex align-items-center gap-2 dropdown-item">
                                             <i class="ti ti-shield fs-6"></i>
                                             <p class="mb-0 fs-3">Consulta de usuarios</p>
-
-                                        </a> 
-
+                                        </a>
 
                                         <a href="@Url.Action("CrearEntrenador", "Entrenador")" class="d-flex align-items-center gap-2 dropdown-item">
                                             <i class="ti ti-user fs-6"></i>
-                                            <p class="mb-0 fs-3">Entrenador</p>
+                                            <p class="mb-0 fs-3">Registrar Entrenadores</p>
                                         </a>
-                                        <div class="nav-item dropdown">
-                                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Clases</a>
-                                            <div class="dropdown-menu text-capitalize">
-                                                <a href="@Url.Action("CrearClase", "Entrenador")" class="d-flex align-items-center gap-2 dropdown-item">
-                                                    <i class="ti ti-user fs-6"></i>
-                                                    <p class="mb-0 fs-3">Registrar clases</p>
-                                                <a href="single.html" class="dropdown-item">Consultar clases</a>
-                                            </div>
-                                        </div>
-                                        <a href="@Url.Action("CerrarSesion", "Login")" class="btn btn-outline-primary mx-3 mt-2 d-block">Cerrar Sesión</a>
 
-                                       
+                                        <a href="@Url.Action("ConsultarEntrenadores", "Entrenador")" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-user fs-6"></i>
+                                            <p class="mb-0 fs-3">Consultar Entrenadores</p>
+                                        </a>
+
+                                        <a href="@Url.Action("CrearClase", "Entrenador")" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-user fs-6"></i>
+                                            <p class="mb-0 fs-3">Registrar Clases</p>
+                                        </a>
+
+                                        <a href="@Url.Action("ConsultarClases", "Entrenador")" class="d-flex align-items-center gap-2 dropdown-item">
+                                            <i class="ti ti-user fs-6"></i>
+                                            <p class="mb-0 fs-3">Consultar Clases</p>
+                                        </a>
+
+                                        <a href="@Url.Action("CerrarSesion", "Login")" class="btn btn-outline-primary mx-3 mt-2 d-block">
+                                            Cerrar Sesión
+                                        </a>
                                     }
                                     else
                                     {
-                                        <a href="@Url.Action("IniciarSesion", "Login")" class="btn btn-outline-primary mx-3 mt-2 d-block">Iniciar Sesión</a>
+                                        <a href="@Url.Action("IniciarSesion", "Login")" class="btn btn-outline-primary mx-3 mt-2 d-block">
+                                            Iniciar Sesión
+                                        </a>
                                     }
-                                 
                                 </div>
                             </div>
                         </li>

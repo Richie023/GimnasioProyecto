@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GimnasioWeb
 build_property.RootNamespace = GimnasioWeb
@@ -19,6 +27,14 @@ build_property.MSBuildProjectDirectory = C:\GimnasioProyecto\Gimnasioweb\Gimnasi
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
+
+[C:/GimnasioProyecto/Gimnasioweb/GimnasioWeb/Views/Entrenador/ConsultarClases.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVuYWRvclxDb25zdWx0YXJDbGFzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GimnasioProyecto/Gimnasioweb/GimnasioWeb/Views/Entrenador/ConsultarEntrenadores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVuYWRvclxDb25zdWx0YXJFbnRyZW5hZG9yZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/GimnasioProyecto/Gimnasioweb/GimnasioWeb/Views/Entrenador/CrearClase.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVuYWRvclxDcmVhckNsYXNlLmNzaHRtbA==
@@ -74,6 +90,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/GimnasioProyecto/Gimnasioweb/GimnasioWeb/Views/Usuario/CambiarContrasenna.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYW1iaWFyQ29udHJhc2VubmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GimnasioProyecto/Gimnasioweb/GimnasioWeb/Views/Usuario/ConsultarUsuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDb25zdWx0YXJVc3Vhcmlvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/GimnasioProyecto/Gimnasioweb/GimnasioWeb/Views/_ViewImports.cshtml]

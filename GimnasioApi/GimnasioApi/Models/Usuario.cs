@@ -15,7 +15,10 @@
         public bool UsaClaveTemp { get; set; }
         public DateTime Vigencia { get; set; }
 
-        public string Rol { get; set; } = string.Empty;
+        public int Rol { get; set; }
+        public string NombreRol { get; set; } =  string.Empty;
+
+
 
 
 

@@ -1,6 +1,9 @@
-﻿﻿@{
+﻿
+﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+
 
 
 <body class="bg-white">
@@ -546,7 +549,10 @@
                         <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
                     </div>
                     <div class="card-body bg-secondary">
-                        <h4 class="card-title text-primary">Trainer Name</h4>
+                        {
+                        nombreEntrenador = Context.Session.GetString("nombreEntrenador");
+                        }
+                    
                         <p class="card-text">Trainer</p>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 wwwroot\css\site.css
 wwwroot\css\style.min.css
+wwwroot\css\tablas.css
 wwwroot\css\tabler-icons.css
 wwwroot\easing\easing.js
 wwwroot\easing\easing.min.js

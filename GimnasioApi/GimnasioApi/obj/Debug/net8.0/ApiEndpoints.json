@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "GimnasioApi.Controllers.EntrenadorController",
+    "Method": "ConsultarClases",
+    "RelativePath": "api/Entrenador/ConsultarClases",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.EntrenadorController",
+    "Method": "ConsultarEntrenadores",
+    "RelativePath": "api/Entrenador/ConsultarEntrenadores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.EntrenadorController",
     "Method": "crearClase",
     "RelativePath": "api/Entrenador/crearClase",
     "HttpMethod": "POST",
@@ -93,6 +113,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.UsuarioController",
+    "Method": "ConsultarUsuarios",
+    "RelativePath": "api/Usuario/ConsultarUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

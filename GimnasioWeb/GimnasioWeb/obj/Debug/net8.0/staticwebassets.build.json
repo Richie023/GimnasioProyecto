@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ut5dDSqFuYygvPaYYtuLTpj31zWDkwDpSlpQvCyOFIU=",
+  "Hash": "0HsYCerwujWQwmC7Y0rJNk+PrMPmrRWtky7QUOSkmGI=",
   "Source": "GimnasioWeb",
   "BasePath": "_content/GimnasioWeb",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.min.css"
+    },
+    {
+      "Identity": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\tablas.css",
+      "SourceId": "GimnasioWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\",
+      "BasePath": "_content/GimnasioWeb",
+      "RelativePath": "css/tablas#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7iznmbmoo8",
+      "Integrity": "gao84JqcKufZUm5EbrFtJ1ytPO9W2PPApC7VIUZWauU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tablas.css"
     },
     {
       "Identity": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\tabler-icons.css",
@@ -4530,6 +4551,88 @@
       ]
     },
     {
+      "Route": "css/tablas.7iznmbmoo8.css",
+      "AssetFile": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\tablas.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gao84JqcKufZUm5EbrFtJ1ytPO9W2PPApC7VIUZWauU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 04:50:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7iznmbmoo8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tablas.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gao84JqcKufZUm5EbrFtJ1ytPO9W2PPApC7VIUZWauU="
+        }
+      ]
+    },
+    {
+      "Route": "css/tablas.css",
+      "AssetFile": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\tablas.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gao84JqcKufZUm5EbrFtJ1ytPO9W2PPApC7VIUZWauU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 04:50:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gao84JqcKufZUm5EbrFtJ1ytPO9W2PPApC7VIUZWauU="
+        }
+      ]
+    },
+    {
       "Route": "css/tabler-icons.css",
       "AssetFile": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\tabler-icons.css",
       "Selectors": [],
@@ -5700,7 +5803,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 05:48:21 GMT"
+          "Value": "Mon, 25 Nov 2024 03:37:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5737,7 +5840,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 05:48:21 GMT"
+          "Value": "Mon, 25 Nov 2024 03:37:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5782,7 +5885,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 05:48:21 GMT"
+          "Value": "Mon, 25 Nov 2024 03:37:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5827,7 +5930,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 05:48:21 GMT"
+          "Value": "Mon, 25 Nov 2024 03:37:08 GMT"
         },
         {
           "Name": "Cache-Control",

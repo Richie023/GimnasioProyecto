@@ -3,6 +3,7 @@
 using GimnasioWeb.Models;
 using GimnasioWeb.Servicios;
 using System.Security.Cryptography.Xml;
+using System.Text.Json;
 
 namespace SWeb.Controllers
 {
@@ -59,6 +60,27 @@ namespace SWeb.Controllers
                 }
             }
         }
+
+        [HttpGet]
+        public IActionResult ConsultarUsuarios()
+        {
+            using (var client = _http.CreateClient())
+            {
+                string url = _conf.GetSection("Variables:UrlApi").Value + "Usuario/ConsultarUsuarios";
+
+                var response = client.GetAsync(url).Result;
+                var result = response.Content.ReadFromJsonAsync<Respuesta>().Result;
+
+                if (result != null && result.Codigo == 0)
+                {
+                    var datosContenido = JsonSerializer.Deserialize<List<Usuario>>((JsonElement)result.Contenido!);
+                    return View(datosContenido);
+                }
+
+                return View(new List<Usuario>());
+            }
+        }
+
 
     }
 }

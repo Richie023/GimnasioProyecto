@@ -67,6 +67,30 @@
         }
       }
     },
+    "/api/Entrenador/ConsultarEntrenadores": {
+      "get": {
+        "tags": [
+          "Entrenador"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Entrenador/ConsultarClases": {
+      "get": {
+        "tags": [
+          "Entrenador"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Login/CrearCuenta": {
       "post": {
         "tags": [
@@ -190,6 +214,18 @@
           }
         }
       }
+    },
+    "/api/Usuario/ConsultarUsuarios": {
+      "get": {
+        "tags": [
+          "Usuario"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -210,6 +246,10 @@
             "nullable": true
           },
           "Nivel": {
+            "type": "string",
+            "nullable": true
+          },
+          "Entrenador": {
             "type": "string",
             "nullable": true
           },
@@ -320,6 +360,10 @@
             "format": "date-time"
           },
           "Rol": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "NombreRol": {
             "type": "string",
             "nullable": true
           }

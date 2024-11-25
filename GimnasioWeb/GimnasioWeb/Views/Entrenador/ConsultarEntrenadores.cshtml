@@ -1,0 +1,40 @@
+﻿@model List<GimnasioWeb.Models.Entrenador>
+
+@{
+    Layout = "~/Views/Shared/_Layout_EXterno.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Lista de Entrenadores</h5>
+
+        <div class="table-responsive">
+            <table class="table text-nowrap align-middle mb-0">
+                <thead>
+                    <tr class="border-2 border-bottom border-primary border-0">
+                        <th># de entrendor</th>
+                        <th>Identificacion</th>
+                        <th>Nombre</th>
+                        <th>Especialidad</th>
+                        <th>Correo</th>
+                        <th>Disponibilidad</th>
+  
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.IdEntrenador</td>
+                            <td>@item.Identificacion</td>
+                             <td>@item.Nombre</td>
+                            <td>@item.Especialidad</td>
+                            <td>@item.Correo</td>
+                            <td>@item.Disponibilidad</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

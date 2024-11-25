@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\style.min.css"
     },
     {
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\tablas.css",
+      "PackagePath": "staticwebassets\\css\\tablas.css"
+    },
+    {
       "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\css\\tabler-icons.css",
       "PackagePath": "staticwebassets\\css\\tabler-icons.css"
     },

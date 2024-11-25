@@ -89,6 +89,57 @@ namespace GimnasioApi.Controllers
             }
 
         }
+
+
+
+        [HttpGet]
+        [Route("ConsultarEntrenadores")]
+        public IActionResult ConsultarEntrenadores()
+        {
+            using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
+            {
+                var respuesta = new Respuesta();
+                var result = context.Query<Entrenador>("ConsultarEntrenadores", new { });
+
+                if (result.Any())
+                {
+                    respuesta.Codigo = 0;
+                    respuesta.Contenido = result;
+                }
+                else
+                {
+                    respuesta.Codigo = -1;
+                    respuesta.Mensaje = "No hay entrenadores registrados en este momento";
+                }
+
+                return Ok(respuesta);
+            }
+        }
+
+
+        [HttpGet]
+        [Route("ConsultarClases")]
+        public IActionResult ConsultarClases()
+        {
+            using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
+            {
+                var respuesta = new Respuesta();
+                var result = context.Query<Clase>("ConsultarClases", new { });
+
+                if (result.Any())
+                {
+                    respuesta.Codigo = 0;
+                    respuesta.Contenido = result;
+                }
+                else
+                {
+                    respuesta.Codigo = -1;
+                    respuesta.Mensaje = "No hay clases registrados en este momento";
+                }
+
+                return Ok(respuesta);
+            }
+        }
         private string Encrypt(string texto)
         {
             byte[] iv = new byte[16];
