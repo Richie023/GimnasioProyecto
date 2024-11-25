@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\GimnasioProyecto\\GimnasioApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|solutionrelative:gimnasioapi\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\models\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|solutionrelative:gimnasioapi\\models\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,19 +75,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Reserva.cs",
+              "RelativeDocumentMoniker": "GimnasioApi\\Models\\Reserva.cs",
+              "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Reserva.cs",
+              "RelativeToolTip": "GimnasioApi\\Models\\Reserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T04:53:18.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Clase.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Clase.cs",
               "RelativeDocumentMoniker": "GimnasioApi\\Models\\Clase.cs",
               "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Clase.cs",
               "RelativeToolTip": "GimnasioApi\\Models\\Clase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T02:24:47.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\appsettings.json",
               "RelativeDocumentMoniker": "GimnasioApi\\appsettings.json",
@@ -95,20 +112,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EntrenadorController.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\EntrenadorController.cs",
               "RelativeDocumentMoniker": "GimnasioApi\\Controllers\\EntrenadorController.cs",
               "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\EntrenadorController.cs",
               "RelativeToolTip": "GimnasioApi\\Controllers\\EntrenadorController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAQwHsAAAByAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAHcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T02:43:14.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Entrenador.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Entrenador.cs",
               "RelativeDocumentMoniker": "GimnasioApi\\Models\\Entrenador.cs",
@@ -120,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "RecuperAcceso.html",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\RecuperAcceso.html",
               "RelativeDocumentMoniker": "GimnasioApi\\RecuperAcceso.html",
@@ -132,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "GimnasioApi\\Models\\Usuario.cs",
@@ -145,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "GimnasioApi\\Controllers\\UsuarioController.cs",
@@ -158,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Respuesta.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Respuesta.cs",
               "RelativeDocumentMoniker": "GimnasioApi\\Models\\Respuesta.cs",
@@ -170,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "GimnasioApi\\Controllers\\LoginController.cs",
