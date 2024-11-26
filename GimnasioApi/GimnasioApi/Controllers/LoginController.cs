@@ -1,21 +1,25 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Dapper;
 using GimnasioApi.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
-using Dapper;
-using System.Text;
-using System.Security.Cryptography;
+using Microsoft.IdentityModel.Tokens;
+
+using System.IdentityModel.Tokens.Jwt;
 using System.Net.Mail;
+using System.Security.Claims;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace GimnasioApi.Controllers
 {
+    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
     {
         private readonly IConfiguration _conf;
         private readonly IHostEnvironment _env;
-
         public LoginController(IConfiguration conf, IHostEnvironment env)
         {
             _conf = conf;
@@ -25,68 +29,60 @@ namespace GimnasioApi.Controllers
 
         [HttpPost]
         [Route("CrearCuenta")]
-        public IActionResult CrearCuenta(Usuario Model)
+        public IActionResult CrearCuenta(Usuario model)
         {
             using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
             {
                 var respuesta = new Respuesta();
-                var result = context.Execute("RegistrarUsuario", new
-                {
-                    Model.Identificacion,
-                    Model.Nombre,
-                    Model.Apellido,
-                    Model.Correo,
-                    Model.Contrasena,
-                    Model.Telefono
-                });
+                var result = context.Execute("CrearCuenta", new { model.Identificacion, model.Nombre, model.Correo, model.Contrasena });
 
                 if (result > 0)
                 {
                     respuesta.Codigo = 0;
-
                 }
                 else
                 {
                     respuesta.Codigo = -1;
-                    respuesta.Mensaje = "Su infromacion no se ha registrado correctamente";
+                    respuesta.Mensaje = "Su información no se ha registrado correctamente";
                 }
-                return Ok(respuesta);
 
+                return Ok(respuesta);
             }
         }
 
 
-
         [HttpPost]
         [Route("IniciarSesion")]
-        public IActionResult IniciarSesion(Usuario Model)
+        public IActionResult IniciarSesion(Usuario model)
         {
             using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
             {
                 var respuesta = new Respuesta();
-                var result = context.QueryFirstOrDefault("IniciarSesion", new
-                {
-
-                    Model.Correo,
-                    Model.Contrasena,
-
-                });
+                var result = context.QueryFirstOrDefault<Usuario>("IniciarSesion", new { model.Correo, model.Contrasena });
 
                 if (result != null)
                 {
-                    respuesta.Codigo = 0;
-                    respuesta.Contenido = result;
+                    if (result.UsaClaveTemp && result.Vigencia < DateTime.Now)
+                    {
+                        respuesta.Codigo = -1;
+                        respuesta.Mensaje = "Su información de acceso temporal ha expirado";
+                    }
+                    else
+                    {
+                        result.Token = GenerarToken(result);
 
+                        respuesta.Codigo = 0;
+                        respuesta.Contenido = result;
+                    }
                 }
                 else
                 {
                     respuesta.Codigo = -1;
-                    respuesta.Mensaje = "Su infromacion no se ha validado correctamente";
+                    respuesta.Mensaje = "Su información no se ha validado correctamente";
                 }
+
                 return Ok(respuesta);
-
             }
-
         }
 
 
@@ -177,7 +173,6 @@ namespace GimnasioApi.Controllers
 
             return Convert.ToBase64String(array);
         }
-        
 
         private string Decrypt(string texto)
         {
@@ -203,8 +198,6 @@ namespace GimnasioApi.Controllers
             }
         }
 
-
-
         private void EnviarCorreo(string destino, string asunto, string contenido)
         {
             string cuenta = _conf.GetSection("Variables:CorreoEmail").Value!;
@@ -228,5 +221,25 @@ namespace GimnasioApi.Controllers
                 client.Send(message);
             }
         }
+
+        private string GenerarToken(Usuario model)
+        {
+            string SecretKey = _conf.GetSection("Variables:Llave").Value!;
+
+            List<Claim> claims = new List<Claim>();
+            claims.Add(new Claim("IdUsuario", model.IdUsuario.ToString()));
+            claims.Add(new Claim("IdRol", model.Rol.ToString()));
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(SecretKey));
+            var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
+
+            var token = new JwtSecurityToken(
+                claims: claims,
+                expires: DateTime.UtcNow.AddMinutes(20),
+                signingCredentials: cred);
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
     }
 }

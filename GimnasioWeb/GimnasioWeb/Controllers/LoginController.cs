@@ -46,7 +46,8 @@ namespace GimnasioWeb.Controllers
                     var datosUsuario = JsonSerializer.Deserialize<Usuario>((JsonElement)result.Contenido!);
                     HttpContext.Session.SetString("IdUsuario", datosUsuario!.IdUsuario.ToString());
                     HttpContext.Session.SetString("NombreUsuario", datosUsuario!.Nombre);
-
+                    HttpContext.Session.SetString("TokenUsuario", datosUsuario!.Token);
+                    HttpContext.Session.SetInt32("RolUsuario", datosUsuario!.Rol);
                     return RedirectToAction("Inicio", "Home");
                 }
                 else

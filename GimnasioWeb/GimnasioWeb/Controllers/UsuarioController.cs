@@ -4,6 +4,7 @@ using GimnasioWeb.Models;
 using GimnasioWeb.Servicios;
 using System.Security.Cryptography.Xml;
 using System.Text.Json;
+using System.Net.Http.Headers;
 
 namespace SWeb.Controllers
 {
@@ -46,6 +47,7 @@ namespace SWeb.Controllers
 
                 JsonContent datos = JsonContent.Create(model);
 
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer" ,HttpContext.Session.GetString("TokenUsuario"));
                 var response = client.PutAsync(url, datos).Result;
                 var result = response.Content.ReadFromJsonAsync<Respuesta>().Result;
 
@@ -67,6 +69,8 @@ namespace SWeb.Controllers
             using (var client = _http.CreateClient())
             {
                 string url = _conf.GetSection("Variables:UrlApi").Value + "Usuario/ConsultarUsuarios";
+
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer" , HttpContext.Session.GetString("TokenUsuario"));
 
                 var response = client.GetAsync(url).Result;
                 var result = response.Content.ReadFromJsonAsync<Respuesta>().Result;

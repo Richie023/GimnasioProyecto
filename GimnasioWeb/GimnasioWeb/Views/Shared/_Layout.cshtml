@@ -36,21 +36,44 @@
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+
+
+
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto p-4 bg-secondary">
                         <a href="@Url.Action("Inicio", "Home")" class="nav-item nav-link"> Home</a>
                         <a href="@Url.Action("About", "Home")" class="nav-item nav-link">Acerca de nosotros</a>
                         <a href="@Url.Action("Beneficios", "Home")" class="nav-item nav-link">Beneficios</a>
                         <a href="@Url.Action("Clases", "Home")" class="nav-item nav-link">Clases</a>
-                       
+
                         <!-- Usuario -->
                         <li class="nav-item dropdown">
                             <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown" aria-expanded="false">
-                               @*  <img src="~/images/user-1.jpg" alt="" width="35" height="35" class="rounded-circle"> *@
+                                @*  <img src="~/images/user-1.jpg" alt="" width="35" height="35" class="rounded-circle"> *@
                                 <span class="text-white">@nombreUsuario</span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                                 <div class="message-body">
+
+
+                                    @if (Context.Session.GetString("NombreUsuario") != null && Context.Session.GetInt32("RolUsuario") == 1){
+                            <li class="nav-small-cap">
+                                <i class="ti ti-dots nav-small-cap-icon fs-6"></i>
+                                <span class="hide-menu">Mantenimientos</span>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link" href="@Url.Action("ConsultarUsuarios","Usuario")" aria-expanded="false">
+                                    <span>
+                                        <iconify-icon icon="solar:layers-minimalistic-bold-duotone" class="fs-6"></iconify-icon>
+                                    </span>
+                                    <span class="hide-menu">Usuarios</span>
+                                </a>
+                            </li>
+                                    }
+
+                                    
+
                                     @if (Context.Session.GetString("NombreUsuario") != null)
                                     {
                                         <a href="@Url.Action("Perfil", "Usuario")" class="d-flex align-items-center gap-2 dropdown-item">
@@ -93,6 +116,9 @@
                                             <p class="mb-0 fs-3">Consultar Clases</p>
                                         </a>
 
+
+
+
                                         <a href="@Url.Action("CerrarSesion", "Login")" class="btn btn-outline-primary mx-3 mt-2 d-block">
                                             Cerrar Sesión
                                         </a>
@@ -103,9 +129,13 @@
                                             Iniciar Sesión
                                         </a>
                                     }
+                              
+
                                 </div>
+                               
                             </div>
                         </li>
+
                     </div>
                 </div>
             </nav>
