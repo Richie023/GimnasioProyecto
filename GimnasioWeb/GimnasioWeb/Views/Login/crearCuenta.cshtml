@@ -28,11 +28,12 @@ data-sidebar-position="fixed" data-header-position="fixed">
                             <form asp-action="CrearCuenta" asp-controller="Login">
                                 <div class="mb-3">
                                     <label class="form-label">Identificación</label>
-                                    <input type="text" asp-for="Identificacion" class="form-control">
+                                    <input type="text" asp-for="Identificacion" class="form-control"
+                                           onkeyup="ConsultarNombre();">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label">Nombre</label>
-                                    <input type="text" asp-for="Nombre" class="form-control">
+                                    <input type="text" asp-for="Nombre" class="form-control" readonly="readonly">
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label">Apellido</label>
@@ -67,3 +68,4 @@ data-sidebar-position="fixed" data-header-position="fixed">
         </div>
     </div>
 </div>
+<script src="~/js/Comunes.js"></script>

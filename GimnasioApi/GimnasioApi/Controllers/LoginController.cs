@@ -34,7 +34,7 @@ namespace GimnasioApi.Controllers
             using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
             {
                 var respuesta = new Respuesta();
-                var result = context.Execute("CrearCuenta", new { model.Identificacion, model.Nombre, model.Correo, model.Contrasena });
+                var result = context.Execute("RegistrarUsuario", new { model.Identificacion, model.Nombre,model.Apellido, model.Correo, model.Contrasena,model.Telefono });
 
                 if (result > 0)
                 {
@@ -103,11 +103,11 @@ namespace GimnasioApi.Controllers
                 if (result != null)
                 {
                     var Codigo = GenerarCodigo();
-                    var Contrasenna = Encrypt(Codigo);
+                    var Contrasena = Encrypt(Codigo);
                     var UsaClaveTemp = true;
                     var Vigencia = DateTime.Now.AddMinutes(10);
 
-                    context.Execute("ActualizarContrasenna", new { result.IdUsuario, Contrasenna, UsaClaveTemp, Vigencia });
+                    context.Execute("ActualizarContrasena", new { result.IdUsuario, Contrasena, UsaClaveTemp, Vigencia });
 
                     var ruta = Path.Combine(_env.ContentRootPath, "RecuperarAcceso.html");
                     var html = System.IO.File.ReadAllText(ruta);

@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|solutionrelative:gimnasioapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|solutionrelative:gimnasioapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|solutionrelative:gimnasioapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|solutionrelative:gimnasioapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,8 +66,7 @@
               "RelativeToolTip": "GimnasioApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-26T16:46:34.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:46:34.937Z"
             },
             {
               "$type": "Document",
@@ -79,18 +78,17 @@
               "RelativeToolTip": "GimnasioApi\\Models\\Respuesta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T16:37:17.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T16:37:17.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "GimnasioApi\\Models\\Usuario.cs",
               "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Usuario.cs",
               "RelativeToolTip": "GimnasioApi\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA7wBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T21:27:02.576Z",
               "EditorCaption": ""
@@ -105,8 +103,7 @@
               "RelativeToolTip": "GimnasioApi\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAC4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T19:50:26.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T19:50:26.695Z"
             },
             {
               "$type": "Document",
@@ -116,20 +113,20 @@
               "RelativeDocumentMoniker": "GimnasioApi\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "GimnasioApi\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAwDwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T03:57:52.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "GimnasioApi\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\LoginController.cs",
               "RelativeToolTip": "GimnasioApi\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAuwDkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAwCQAAACnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T04:25:44.647Z",
               "EditorCaption": ""

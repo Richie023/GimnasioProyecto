@@ -117,6 +117,38 @@
   },
   {
     "ContainingType": "GimnasioApi.Controllers.UsuarioController",
+    "Method": "ActualizarPerfil",
+    "RelativePath": "api/Usuario/ActualizarPerfil",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GimnasioApi.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.UsuarioController",
+    "Method": "ConsultarUsuario",
+    "RelativePath": "api/Usuario/ConsultarUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.UsuarioController",
     "Method": "ConsultarUsuarios",
     "RelativePath": "api/Usuario/ConsultarUsuarios",
     "HttpMethod": "GET",

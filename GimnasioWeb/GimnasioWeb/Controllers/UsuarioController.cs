@@ -5,8 +5,9 @@ using GimnasioWeb.Servicios;
 using System.Security.Cryptography.Xml;
 using System.Text.Json;
 using System.Net.Http.Headers;
+using System.Reflection;
 
-namespace SWeb.Controllers
+namespace GimnasioWeb.Controllers
 {
     public class UsuarioController : Controller
     {
@@ -26,6 +27,57 @@ namespace SWeb.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult ActualizarPerfil()
+        {
+            using (var client = _http.CreateClient())
+            {
+                var IdUsuario = long.Parse(HttpContext.Session.GetString("IdUsuario")!.ToString());
+                string url = _conf.GetSection("Variables:UrlApi").Value + "Usuario/ConsultarUsuario?IdUsuario=" + IdUsuario;
+
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("TokenUsuario"));
+                var response = client.GetAsync(url).Result;
+                var result = response.Content.ReadFromJsonAsync<Respuesta>().Result;
+
+                if (result != null && result.Codigo == 0)
+                {
+                    var datosContenido = JsonSerializer.Deserialize<Usuario>((JsonElement)result.Contenido!);
+                    return View(datosContenido);
+                }
+
+                return View(new Usuario());
+            }
+        }
+
+        [HttpPost]
+        public IActionResult ActualizarPerfil(Usuario model)
+        {
+            model.IdUsuario = long.Parse(HttpContext.Session.GetString("IdUsuario")!.ToString());
+
+            using (var client = _http.CreateClient())
+            {
+                var url = _conf.GetSection("Variables:UrlApi").Value + "Usuario/ActualizarPerfil";
+
+                JsonContent datos = JsonContent.Create(model);
+
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("TokenUsuario"));
+                var response = client.PutAsync(url, datos).Result;
+                var result = response.Content.ReadFromJsonAsync<Respuesta>().Result;
+                ViewBag.Mensaje = result!.Mensaje;
+
+                if (result != null && result.Codigo == 0)
+                {
+                    HttpContext.Session.SetString("NombreUsuario", model.Nombre);
+                    return View();
+                }
+                else
+                {
+                    return View();
+                }
+            }
+        }
+
 
         [HttpPost]
         public IActionResult CambiarContrasenna(Usuario model)
@@ -66,6 +118,7 @@ namespace SWeb.Controllers
         [HttpGet]
         public IActionResult ConsultarUsuarios()
         {
+            var IdUsuario = long.Parse(HttpContext.Session.GetString("IdUsuario")!.ToString());
             using (var client = _http.CreateClient())
             {
                 string url = _conf.GetSection("Variables:UrlApi").Value + "Usuario/ConsultarUsuarios";
@@ -78,12 +131,16 @@ namespace SWeb.Controllers
                 if (result != null && result.Codigo == 0)
                 {
                     var datosContenido = JsonSerializer.Deserialize<List<Usuario>>((JsonElement)result.Contenido!);
-                    return View(datosContenido);
+                    return View(datosContenido.Where(x=> x.IdUsuario != IdUsuario).ToList());
                 }
 
                 return View(new List<Usuario>());
             }
         }
+
+       
+    
+
 
 
     }

@@ -444,6 +444,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zuWRxbi5rAHxfrr1unovMnco7aXvsyT2XBHECblf4pg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1775"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022zuWRxbi5rAHxfrr1unovMnco7aXvsyT2XBHECblf4pg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 22 Nov 2024 05:49:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GimnasioWeb/js/Comunes.9h6lzigcei.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Comunes.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9h6lzigcei"},{"Name":"integrity","Value":"sha256-82COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX\u002Bo8="},{"Name":"label","Value":"_content/GimnasioWeb/js/Comunes.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"428"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002282COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX\u002Bo8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 28 Nov 2024 03:23:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GimnasioWeb/js/Comunes.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Comunes.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-82COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX\u002Bo8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"428"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002282COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX\u002Bo8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 28 Nov 2024 03:23:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GimnasioWeb/js/main.clba1qcc8v.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

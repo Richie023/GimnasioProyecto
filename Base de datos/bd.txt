@@ -190,7 +190,7 @@ BEGIN
     WHERE Correo = @Correo AND Contrasena = @Contrasena AND Estado = 1;
 END;
 GO
-
+---modifcar el sp para iniciar sesion falta inner join para unir l nombre del rol
 -- Actualizar Contraseña
 CREATE PROCEDURE ActualizarContrasena
     @IdUsuario INT,
@@ -369,4 +369,74 @@ END;
 GO
 
 
---
+-- Validar Usuario
+CREATE PROCEDURE [dbo].[ValidarUsuario]
+	@Correo varchar(80)
+AS
+BEGIN
+	
+	SELECT	U.IdUsuario
+			Identificacion,
+			Nombre,
+			Correo,
+			U.Estado
+			Rol,
+			R.NombreRol
+	  FROM	dbo.Usuarios U
+	  INNER JOIN dbo.Roles R ON U.Rol = R.IdRol
+	  WHERE Correo = @Correo
+	End
+	Go
+	
+	--Consultar usuario
+	GO
+
+CREATE PROCEDURE [dbo].[ConsultarUsuario]
+@IdUsuario BIGINT
+AS
+BEGIN
+    SELECT 
+        u.IdUsuario,
+		u.Identificacion,
+        u.Nombre,
+        u.Apellido,
+        u.Correo,
+        u.Rol, -- Devuelve el ID del rol (int)
+        r.NombreRol -- Devuelve el nombre del rol (string)
+    FROM Usuarios u
+    INNER JOIN Roles r ON u.Rol = r.IdRol
+    WHERE u.IdUsuario = @IdUsuario; 
+END
+
+
+-- Actualizar Perfil
+ALTER PROCEDURE [dbo].[ActualizarPerfil]
+    @IdUsuario INT,
+	@Identificacion NVARCHAR(20),
+	@Nombre NVarchar(255),
+	@Correo Nvarchar (80),
+	@Rol SMALLINT
+AS
+BEGIN
+
+IF NOT EXISTS (SELECT 1 FROM Usuarios
+WHERE (IDENTIFICACION = @Identificacion
+ OR Correo = @Correo)
+ AND IdUsuario != IdUsuario)
+
+ Begin
+
+    UPDATE Usuarios
+    SET Identificacion = @Identificacion,
+        Nombre = @Nombre,
+        Correo = @Correo,
+		Rol =    CASE WHEN @Rol != 0
+				THEN Rol
+				ELSE Rol END
+
+    WHERE IdUsuario = @IdUsuario;
+END
+END
+GO
+
+

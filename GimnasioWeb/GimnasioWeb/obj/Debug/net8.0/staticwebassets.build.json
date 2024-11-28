@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0HsYCerwujWQwmC7Y0rJNk+PrMPmrRWtky7QUOSkmGI=",
+  "Hash": "FzKqhfQAP2eobrEcz4D0K1bQEcX7UMugyGskSzLSom0=",
   "Source": "GimnasioWeb",
   "BasePath": "_content/GimnasioWeb",
   "Mode": "Default",
@@ -813,6 +813,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Calculadora.js"
+    },
+    {
+      "Identity": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\Comunes.js",
+      "SourceId": "GimnasioWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\",
+      "BasePath": "_content/GimnasioWeb",
+      "RelativePath": "js/Comunes#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9h6lzigcei",
+      "Integrity": "82COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX+o8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Comunes.js"
     },
     {
       "Identity": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\main.js",
@@ -7499,6 +7520,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zuWRxbi5rAHxfrr1unovMnco7aXvsyT2XBHECblf4pg="
+        }
+      ]
+    },
+    {
+      "Route": "js/Comunes.9h6lzigcei.js",
+      "AssetFile": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\Comunes.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"82COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX+o8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 03:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9h6lzigcei"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Comunes.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-82COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX+o8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Comunes.js",
+      "AssetFile": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\Comunes.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"82COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX+o8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 03:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-82COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX+o8="
         }
       ]
     },

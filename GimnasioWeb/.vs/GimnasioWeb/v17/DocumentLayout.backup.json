@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\GimnasioProyecto\\GimnasioWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\views\\usuario\\consultarusuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\views\\usuario\\consultarusuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,54 +42,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "GimnasioWeb\\Models\\Usuario.cs",
-              "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Models\\Usuario.cs",
-              "RelativeToolTip": "GimnasioWeb\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T21:26:11.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "GimnasioWeb\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "GimnasioWeb\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAUwDEAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T21:16:24.796Z",
+              "Title": "ConsultarUsuarios.cshtml",
+              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Usuario\\ConsultarUsuarios.cshtml",
+              "RelativeDocumentMoniker": "GimnasioWeb\\Views\\Usuario\\ConsultarUsuarios.cshtml",
+              "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Usuario\\ConsultarUsuarios.cshtml",
+              "RelativeToolTip": "GimnasioWeb\\Views\\Usuario\\ConsultarUsuarios.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T05:25:58.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "GimnasioWeb\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "GimnasioWeb\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwDEAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T00:59:20.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "GimnasioWeb\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "GimnasioWeb\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAAFoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAAANIAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T05:29:05.969Z"
+              "WhenOpened": "2024-11-22T05:29:05.969Z",
+              "EditorCaption": ""
             }
           ]
         }
