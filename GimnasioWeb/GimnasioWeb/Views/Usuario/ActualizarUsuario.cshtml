@@ -1,20 +1,20 @@
 ﻿@model GimnasioWeb.Models.Usuario
 
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_Layout_EXterno.cshtml";
 }
 
 
 <div class="card">
     <div class="card-body">
-        <h5 class="card-title fw-semibold mb-4">Actualizar Perfil</h5>
+        <h5 class="card-title fw-semibold mb-4">Actualizar Usuario</h5>
 
         @if (ViewBag.Mensaje != null)
         {
             <div class="alert alert-secondary text-center">@ViewBag.Mensaje</div>
         }
 
-        <form asp-action="ActualizarPerfil" asp-controller="Usuario">
+        <form asp-action="ActualizarUsuario" asp-controller="Usuario">
 
             <div class="mb-3">
                 <label class="form-label">Identificación</label>
@@ -24,8 +24,7 @@
 
             <div class="mb-3">
                 <label class="form-label">Nombre</label>
-                <input type="text" asp-for="Nombre" class="form-control" readonly="readonly"
-                       style="background-color:#f1f1f1">
+                <input type="text" asp-for="Nombre" class="form-control" >
             </div>
 
             <div class="mb-3">
@@ -35,8 +34,19 @@
 
             <div class="mb-4">
                 <label class="form-label">Rol</label>
-                <input type="text" asp-for="NombreRol" class="form-control" readonly="readonly"
-                       style="background-color:#f1f1f1">
+                <select asp-for="Rol" class="form-control">
+                    @{
+                        var roles = ViewBag.DropdownRoles as List<Rol>;
+                        if (roles != null)
+                        {
+                            @foreach (var item in roles)
+                            {
+                                <option value="item.IdRol">@item.NombreRol</option>
+                    
+                            }
+                    }   }
+                    </select>
+               
             </div>
 
             <input type="submit" class="btn btn-primary" value="Procesar">

@@ -133,6 +133,16 @@
   },
   {
     "ContainingType": "GimnasioApi.Controllers.UsuarioController",
+    "Method": "ConsultarRoles",
+    "RelativePath": "api/Usuario/ConsultarRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.UsuarioController",
     "Method": "ConsultarUsuario",
     "RelativePath": "api/Usuario/ConsultarUsuario",
     "HttpMethod": "GET",
