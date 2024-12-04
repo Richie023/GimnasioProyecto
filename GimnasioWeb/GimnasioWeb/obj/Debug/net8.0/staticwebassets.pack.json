@@ -153,6 +153,10 @@
       "PackagePath": "staticwebassets\\js\\Comunes.js"
     },
     {
+      "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\Consultar.js",
+      "PackagePath": "staticwebassets\\js\\Consultar.js"
+    },
+    {
       "Id": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },

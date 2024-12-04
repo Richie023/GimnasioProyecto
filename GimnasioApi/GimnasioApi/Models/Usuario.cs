@@ -19,6 +19,7 @@
         public string NombreRol { get; set; } =  string.Empty;
 
         public string Token { get; set; } = string.Empty;
+        public string Estado { get; set; } = string.Empty;
 
 
 

@@ -193,5 +193,29 @@ namespace GimnasioApi.Controllers
                 }
             }
         }
+
+        [HttpGet]
+        [Route("ConsultarRoles")]
+        public IActionResult ConsultarRoles()
+        {
+            using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
+            {
+                var respuesta = new Respuesta();
+                var result = context.Query<Rol>("ConsultarRoles", new { });
+
+                if (result.Any())
+                {
+                    respuesta.Codigo = 0;
+                    respuesta.Contenido = result;
+                }
+                else
+                {
+                    respuesta.Codigo = -1;
+                    respuesta.Mensaje = "No hay usuarios registrados en este momento";
+                }
+
+                return Ok(respuesta);
+            }
+        }
     }
 }

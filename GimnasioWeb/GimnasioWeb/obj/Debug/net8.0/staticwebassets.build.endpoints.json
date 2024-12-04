@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Dec 2024 19:12:19 GMT"
+          "Value": "Wed, 04 Dec 2024 15:39:28 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,7 +74,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Dec 2024 19:12:19 GMT"
+          "Value": "Wed, 04 Dec 2024 15:39:28 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3115,6 +3115,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-82COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX+o8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Consultar.js",
+      "AssetFile": "js/Consultar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 19:56:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4="
+        }
+      ]
+    },
+    {
+      "Route": "js/Consultar.tklxh3jus1.js",
+      "AssetFile": "js/Consultar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 19:56:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tklxh3jus1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4="
+        },
+        {
+          "Name": "label",
+          "Value": "js/Consultar.js"
         }
       ]
     },

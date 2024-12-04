@@ -91,6 +91,18 @@
         }
       }
     },
+    "/api/Entrenador/ConsultarRoles": {
+      "get": {
+        "tags": [
+          "Entrenador"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Login/CrearCuenta": {
       "post": {
         "tags": [
@@ -227,6 +239,48 @@
       }
     },
     "/api/Usuario/ActualizarPerfil": {
+      "put": {
+        "tags": [
+          "Usuario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
+      }
+    },
+    "/api/Usuario/ActualizarEstado": {
       "put": {
         "tags": [
           "Usuario"
@@ -488,6 +542,10 @@
             "nullable": true
           },
           "Token": {
+            "type": "string",
+            "nullable": true
+          },
+          "Estado": {
             "type": "string",
             "nullable": true
           }

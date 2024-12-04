@@ -1,13 +1,16 @@
-﻿@model GimnasioWeb.Models.Usuario
+﻿@using GimnasioWeb.Models
+@model GimnasioWeb.Models.Usuario
 
 @{
-    Layout = "~/Views/Shared/_Layout_EXterno.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 
 <div class="card">
     <div class="card-body">
         <h5 class="card-title fw-semibold mb-4">Actualizar Usuario</h5>
+
+        <input type="hidden" asp-for="IdUsuario" class="form-control" />
 
         @if (ViewBag.Mensaje != null)
         {
@@ -36,7 +39,7 @@
                 <label class="form-label">Rol</label>
                 <select asp-for="Rol" class="form-control">
                     @{
-                        var roles = ViewBag.DropdownRoles as List<Rol>;
+                        var roles = ViewBag.DropDownRoles as List<Rol>;
                         if (roles != null)
                         {
                             @foreach (var item in roles)

@@ -77,6 +77,34 @@ namespace GimnasioApi.Controllers
             }
         }
 
+        [HttpPut]
+        [Route("ActualizarEstado")]
+        public IActionResult ActualizarEstado(Usuario model)
+        {
+            using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
+            {
+                var respuesta = new Respuesta();
+
+                var result = context.Execute("ActualizarEstado", new
+                {
+                   model.IdUsuario
+                });
+
+                if (result > 0)
+                {
+                    respuesta.Codigo = 0;
+                 
+                }
+                else
+                {
+                    respuesta.Codigo = -1;
+                    respuesta.Mensaje = "El estado del usuario no se ha actualizado correctamente";
+                }
+
+                return Ok(respuesta);
+            }
+        }
+
         [HttpGet]
         [Route("ConsultarUsuarios")]
         public IActionResult ConsultarUsuarios()
@@ -149,6 +177,8 @@ namespace GimnasioApi.Controllers
                 return Ok(respuesta);
             }
         }
+
+
 
 
     }

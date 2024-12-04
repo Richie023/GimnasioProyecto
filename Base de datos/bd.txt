@@ -320,7 +320,8 @@ GO
 -- ===========================
 -- Consultas
 -- ===========================
-CREATE PROCEDURE ConsultarUsuarios
+
+ALTER PROCEDURE [dbo].[ConsultarUsuarios]
 AS
 BEGIN
     SELECT 
@@ -328,15 +329,14 @@ BEGIN
         u.Nombre,
         u.Apellido,
         u.Correo,
-		--u.Identificacion -- quitar el --  si se quiere mostrar la identificacion el tabla 
         u.Rol, -- Devuelve el ID del rol (int)
+		u.Estado,
+		CASE WHEN u.Estado = 1 THEN 'Activo' ELSE 'Inactivo' End Estado,
         r.NombreRol -- Devuelve el nombre del rol (string)
     FROM Usuarios u
     INNER JOIN Roles r ON u.Rol = r.IdRol
-    WHERE u.Estado = 1; -- Solo los usuarios activos
+  
 END
-
-GO
 
 
 
@@ -439,4 +439,82 @@ END
 END
 GO
 
+-- consultar Roles dropdown
+USE [Gym]
+GO
 
+CREATE PROCEDURE dbo.ConsultarRoles
+AS
+BEGIN
+    SELECT 
+     IdRol,
+     NombreRol
+    FROM Roles u   
+END
+
+
+USE [Gym]
+GO
+
+
+-- Actualizar Estado
+CREATE PROCEDURE [dbo].[ActualizarEstado]
+    @IdUsuario INT
+   
+AS
+BEGIN
+    UPDATE Usuarios
+    SET Estado = CASE WHEN Estado = 1 THEN 0 ELSE 1 END
+    WHERE IdUsuario = @IdUsuario;
+END;
+
+
+
+
+USE [Gym]
+
+GO
+ALTER PROCEDURE [dbo].[ConsultarUsuarios]
+AS
+BEGIN
+    SELECT 
+        u.IdUsuario,
+        Nombre,
+        Apellido,
+        Correo,
+		u.Estado,
+		CASE WHEN Estado = 1 THEN 'Activo' ELSE 'Inactivo' End Estado,
+        u.Rol, -- Devuelve el ID del rol (int)
+        r.NombreRol -- Devuelve el nombre del rol (string)
+    FROM Usuarios u
+    INNER JOIN Roles r ON u.Rol = r.IdRol
+   
+END
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CREATE TABLE [dbo].[Error](
+	[Consecutivo] [bigint] IDENTITY(1,1) NOT NULL,
+	[ConsecutivoUsuario] [bigint] NOT NULL,
+	[Mensaje] [varchar](max) NOT NULL,
+	[Origen] [varchar](50) NOT NULL,
+	[FechaHora] [datetime] NOT NULL,
+ CONSTRAINT [PK_tError] PRIMARY KEY CLUSTERED 
+(
+	[Consecutivo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+
+CREATE PROCEDURE [dbo].[RegistrarError]
+	@Consecutivo BIGINT,
+	@Mensaje	 VARCHAR(MAX),
+	@Origen		 VARCHAR(50)
+AS
+BEGIN
+
+	INSERT INTO dbo.Error(ConsecutivoUsuario,Mensaje,Origen,FechaHora)
+    VALUES (@Consecutivo,@Mensaje,@Origen,GETDATE())
+
+END
+GO

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mqDNt2n1IHJ807YwadYmvOWWz6jTLo0sCcZyB19K54o=",
+  "Hash": "PYF4evdU6hBD9IMgPufSu59atZkZl/DMHIYz7OkN0hA=",
   "Source": "GimnasioWeb",
   "BasePath": "_content/GimnasioWeb",
   "Mode": "Default",
@@ -834,6 +834,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Comunes.js"
+    },
+    {
+      "Identity": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\Consultar.js",
+      "SourceId": "GimnasioWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\",
+      "BasePath": "_content/GimnasioWeb",
+      "RelativePath": "js/Consultar#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tklxh3jus1",
+      "Integrity": "g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Consultar.js"
     },
     {
       "Identity": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\main.js",
@@ -5824,7 +5845,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Dec 2024 19:12:19 GMT"
+          "Value": "Wed, 04 Dec 2024 15:39:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5861,7 +5882,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Dec 2024 19:12:19 GMT"
+          "Value": "Wed, 04 Dec 2024 15:39:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5906,7 +5927,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Dec 2024 19:12:19 GMT"
+          "Value": "Wed, 04 Dec 2024 15:39:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5951,7 +5972,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Dec 2024 19:12:19 GMT"
+          "Value": "Wed, 04 Dec 2024 15:39:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7602,6 +7623,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-82COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX+o8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Consultar.js",
+      "AssetFile": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\Consultar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 19:56:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4="
+        }
+      ]
+    },
+    {
+      "Route": "js/Consultar.tklxh3jus1.js",
+      "AssetFile": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\wwwroot\\js\\Consultar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 19:56:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tklxh3jus1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Consultar.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4="
         }
       ]
     },

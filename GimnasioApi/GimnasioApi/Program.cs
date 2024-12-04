@@ -55,6 +55,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseExceptionHandler("/api/Error/RegistrarError");
 
 app.UseHttpsRedirection();
