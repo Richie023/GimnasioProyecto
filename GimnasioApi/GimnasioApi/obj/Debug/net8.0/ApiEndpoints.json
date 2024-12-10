@@ -62,6 +62,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "GimnasioApi.Controllers.ErrorController",
+    "Method": "RegistrarError",
+    "RelativePath": "api/Error/RegistrarError",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GimnasioApi.Controllers.LoginController",
     "Method": "CrearCuenta",
     "RelativePath": "api/Login/CrearCuenta",

@@ -35,7 +35,6 @@ wwwroot\img\testimonial-3.jpg
 wwwroot\img\user.jpg
 wwwroot\js\Calculadora.js
 wwwroot\js\Comunes.js
-wwwroot\js\Consultar.js
 wwwroot\js\main.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

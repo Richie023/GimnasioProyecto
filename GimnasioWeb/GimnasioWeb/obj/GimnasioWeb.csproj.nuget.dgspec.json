@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\GimnasioWeb.csproj": {}
+    "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\GimnasioWeb.csproj": {}
   },
   "projects": {
-    "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\GimnasioWeb.csproj": {
+    "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\GimnasioWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\GimnasioWeb.csproj",
+        "projectUniqueName": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\GimnasioWeb.csproj",
         "projectName": "GimnasioWeb",
-        "projectPath": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\GimnasioWeb.csproj",
+        "projectPath": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\GimnasioWeb.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\GimnasioProyecto\\Gimnasioweb\\GimnasioWeb\\obj\\",
+        "outputPath": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
