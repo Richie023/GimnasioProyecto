@@ -456,6 +456,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-82COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX\u002Bo8="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"428"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002282COMwbmfrqmDVIPK57HIRVgggcyb7yAIwRVBEwX\u002Bo8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 17:03:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GimnasioWeb/js/Consultar.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Consultar.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-g8c6dGmN\u002BeKyH9dvy\u002BLC70KzjmFs3mNBxdsOl/AjpU4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"283"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022g8c6dGmN\u002BeKyH9dvy\u002BLC70KzjmFs3mNBxdsOl/AjpU4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 17:03:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GimnasioWeb/js/Consultar.tklxh3jus1.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Consultar.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tklxh3jus1"},{"Name":"integrity","Value":"sha256-g8c6dGmN\u002BeKyH9dvy\u002BLC70KzjmFs3mNBxdsOl/AjpU4="},{"Name":"label","Value":"_content/GimnasioWeb/js/Consultar.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"283"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022g8c6dGmN\u002BeKyH9dvy\u002BLC70KzjmFs3mNBxdsOl/AjpU4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 17:03:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GimnasioWeb/js/main.clba1qcc8v.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

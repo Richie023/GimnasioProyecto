@@ -3119,6 +3119,88 @@
       ]
     },
     {
+      "Route": "js/Consultar.js",
+      "AssetFile": "js/Consultar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 17:03:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4="
+        }
+      ]
+    },
+    {
+      "Route": "js/Consultar.tklxh3jus1.js",
+      "AssetFile": "js/Consultar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 17:03:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tklxh3jus1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g8c6dGmN+eKyH9dvy+LC70KzjmFs3mNBxdsOl/AjpU4="
+        },
+        {
+          "Name": "label",
+          "Value": "js/Consultar.js"
+        }
+      ]
+    },
+    {
       "Route": "js/main.clba1qcc8v.js",
       "AssetFile": "js/main.js",
       "Selectors": [],

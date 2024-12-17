@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GimnasioWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a872787dc81702107b24f720686ef7845a215fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d69be1e297d0f6f3656d1d217d82beb0813b725")]
 [assembly: System.Reflection.AssemblyProductAttribute("GimnasioWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GimnasioWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

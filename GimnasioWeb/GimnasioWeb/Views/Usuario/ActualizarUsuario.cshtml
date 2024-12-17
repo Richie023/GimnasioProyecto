@@ -1,16 +1,14 @@
 ﻿@using GimnasioWeb.Models
 @model GimnasioWeb.Models.Usuario
 
-@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
+
 
 
 <div class="card">
     <div class="card-body">
         <h5 class="card-title fw-semibold mb-4">Actualizar Usuario</h5>
 
-        <input type="hidden" asp-for="IdUsuario" class="form-control" />
+ 
 
         @if (ViewBag.Mensaje != null)
         {
@@ -18,7 +16,7 @@
         }
 
         <form asp-action="ActualizarUsuario" asp-controller="Usuario">
-
+            <input type="hidden" asp-for="IdUsuario" class="form-control" />
             <div class="mb-3">
                 <label class="form-label">Identificación</label>
                 <input type="text" asp-for="Identificacion" class="form-control"
@@ -44,7 +42,7 @@
                         {
                             @foreach (var item in roles)
                             {
-                                <option value="item.IdRol">@item.NombreRol</option>
+                                <option value="@item.IdRol">@item.NombreRol</option>
                     
                             }
                     }   }

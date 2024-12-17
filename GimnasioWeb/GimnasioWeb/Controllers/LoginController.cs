@@ -106,7 +106,7 @@ namespace GimnasioWeb.Controllers
             using (var client = _http.CreateClient())
             {
                 var url = _conf.GetSection("Variables:UrlApi").Value + "Login/RecuperarAcceso";
-   
+
                 JsonContent datos = JsonContent.Create(model);
 
                 var response = client.PostAsync(url, datos).Result;
@@ -114,9 +114,6 @@ namespace GimnasioWeb.Controllers
 
                 if (result != null && result.Codigo == 0)
                 {
-                    var datosUsuario = JsonSerializer.Deserialize<Usuario>((JsonElement)result.Contenido!);
-                
-
                     return RedirectToAction("IniciarSesion", "Login");
                 }
                 else
@@ -126,9 +123,10 @@ namespace GimnasioWeb.Controllers
                 }
             }
         }
-        
 
-        
+
+
+
         [HttpGet]
         public IActionResult CerrarSesion()
         {
