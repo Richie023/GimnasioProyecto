@@ -8,6 +8,8 @@ using Microsoft.Data.SqlClient;
 
 namespace GimnasioApi.Controllers
 {
+
+    [ApiExplorerSettings(IgnoreApi = true)]
     [Route("api/[controller]")]
     [ApiController]
     public class ErrorController : ControllerBase

@@ -5,41 +5,33 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Entrenador/CrearEntrenador": {
-      "post": {
+    "/api/Clase/ConsultarClase": {
+      "get": {
         "tags": [
-          "Entrenador"
+          "Clase"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Entrenador"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Entrenador"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Entrenador"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
           }
-        }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
       }
     },
-    "/api/Entrenador/crearClase": {
-      "post": {
+    "/api/Clase/ActualizarEstadoClase": {
+      "put": {
         "tags": [
-          "Entrenador"
+          "Clase"
         ],
         "requestBody": {
           "content": {
@@ -63,44 +55,61 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
           }
-        }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
       }
     },
-    "/api/Entrenador/ConsultarEntrenadores": {
-      "get": {
+    "/api/Clase/RegistrarClase": {
+      "post": {
         "tags": [
-          "Entrenador"
+          "Clase"
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Clase"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Clase"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Clase"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
           }
-        }
-      }
-    },
-    "/api/Entrenador/ConsultarClases": {
-      "get": {
-        "tags": [
-          "Entrenador"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
+        },
+        "security": [
+          {
+            "oauth2": [ ]
           }
-        }
-      }
-    },
-    "/api/Entrenador/ConsultarRoles": {
-      "get": {
-        "tags": [
-          "Entrenador"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
+        ]
       }
     },
     "/api/Login/CrearCuenta": {
@@ -194,6 +203,113 @@
             "description": "OK"
           }
         }
+      }
+    },
+    "/api/Producto/ConsultarProductos": {
+      "get": {
+        "tags": [
+          "Producto"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
+      }
+    },
+    "/api/Producto/ActualizarEstadoProducto": {
+      "put": {
+        "tags": [
+          "Producto"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Producto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Producto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Producto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
+      }
+    },
+    "/api/Producto/RegistrarProducto": {
+      "post": {
+        "tags": [
+          "Producto"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Producto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Producto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Producto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
       }
     },
     "/api/Usuario/ActualizarContrasenna": {
@@ -407,7 +523,7 @@
       "Clase": {
         "type": "object",
         "properties": {
-          "IdClase": {
+          "Consecutivo": {
             "type": "integer",
             "format": "int64"
           },
@@ -419,72 +535,57 @@
             "type": "string",
             "nullable": true
           },
-          "Nivel": {
-            "type": "string",
-            "nullable": true
-          },
           "Entrenador": {
             "type": "string",
             "nullable": true
           },
-          "FechaHora": {
+          "Precio": {
+            "type": "number",
+            "format": "double"
+          },
+          "Cupo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Imagen": {
+            "type": "string",
+            "nullable": true
+          },
+          "Horario": {
             "type": "string",
             "format": "date-time"
           },
-          "Duracion": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "IdEntrenador": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "CapacidadMaxima": {
-            "type": "integer",
-            "format": "int32"
-          },
           "Estado": {
-            "type": "boolean"
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Entrenador": {
+      "Producto": {
         "type": "object",
         "properties": {
-          "IdEntrenador": {
+          "Consecutivo": {
             "type": "integer",
             "format": "int64"
-          },
-          "Identificacion": {
-            "type": "string",
-            "nullable": true
           },
           "Nombre": {
             "type": "string",
             "nullable": true
           },
-          "Apellido": {
+          "Precio": {
+            "type": "number",
+            "format": "double"
+          },
+          "Inventario": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Imagen": {
             "type": "string",
             "nullable": true
           },
-          "Especialidad": {
-            "type": "string",
-            "nullable": true
-          },
-          "Correo": {
-            "type": "string",
-            "nullable": true
-          },
-          "Telefono": {
-            "type": "string",
-            "nullable": true
-          },
-          "Contrasena": {
-            "type": "string",
-            "nullable": true
-          },
-          "Disponibilidad": {
+          "Estado": {
             "type": "string",
             "nullable": true
           }

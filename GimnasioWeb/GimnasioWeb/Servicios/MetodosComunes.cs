@@ -42,7 +42,7 @@ namespace GimnasioWeb.Servicios
         }
 
 
-        public string Decrypt(string texto)
+        public string Decrypt(string texto)   
         {
             byte[] iv = new byte[16];
             byte[] buffer = Convert.FromBase64String(texto);

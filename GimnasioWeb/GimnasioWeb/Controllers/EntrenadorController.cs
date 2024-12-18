@@ -107,25 +107,25 @@ namespace GimnasioWeb.Controllers
 
             }
         }
-        [HttpGet]
-        public IActionResult ConsultarClases()
-        {
-            using (var client = _http.CreateClient())
-            {
-                string url = _conf.GetSection("Variables:UrlApi").Value + "Entrenador/ConsultarClases";
+        //[HttpGet]
+        //public IActionResult ConsultarClases()
+        //{
+        //    using (var client = _http.CreateClient())
+        //    {
+        //        string url = _conf.GetSection("Variables:UrlApi").Value + "Clase/ConsultarClases";
 
-                var response = client.GetAsync(url).Result;
-                var result = response.Content.ReadFromJsonAsync<Respuesta>().Result;
+        //        var response = client.GetAsync(url).Result;
+        //        var result = response.Content.ReadFromJsonAsync<Respuesta>().Result;
 
-                if (result != null && result.Codigo == 0)
-                {
-                    var datosContenido = JsonSerializer.Deserialize<List<Clase>>((JsonElement)result.Contenido!);
-                    return View(datosContenido);
-                }
+        //        if (result != null && result.Codigo == 0)
+        //        {
+        //            var datosContenido = JsonSerializer.Deserialize<List<Clase>>((JsonElement)result.Contenido!);
+        //            return View(datosContenido);
+        //        }
 
-                return View(new List<Clase>());
-            }
-        }
+        //        return View(new List<Clase>());
+        //    }
+        //}
     }
     }
 

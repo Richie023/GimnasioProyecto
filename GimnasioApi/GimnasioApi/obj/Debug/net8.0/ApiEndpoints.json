@@ -1,44 +1,14 @@
 [
   {
-    "ContainingType": "GimnasioApi.Controllers.EntrenadorController",
-    "Method": "ConsultarClases",
-    "RelativePath": "api/Entrenador/ConsultarClases",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GimnasioApi.Controllers.EntrenadorController",
-    "Method": "ConsultarEntrenadores",
-    "RelativePath": "api/Entrenador/ConsultarEntrenadores",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GimnasioApi.Controllers.EntrenadorController",
-    "Method": "ConsultarRoles",
-    "RelativePath": "api/Entrenador/ConsultarRoles",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GimnasioApi.Controllers.EntrenadorController",
-    "Method": "crearClase",
-    "RelativePath": "api/Entrenador/crearClase",
-    "HttpMethod": "POST",
+    "ContainingType": "GimnasioApi.Controllers.ClaseController",
+    "Method": "ActualizarEstadoClase",
+    "RelativePath": "api/Clase/ActualizarEstadoClase",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Model",
+        "Name": "model",
         "Type": "GimnasioApi.Models.Clase",
         "IsRequired": true
       }
@@ -46,29 +16,29 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GimnasioApi.Controllers.EntrenadorController",
-    "Method": "CrearEntrenador",
-    "RelativePath": "api/Entrenador/CrearEntrenador",
+    "ContainingType": "GimnasioApi.Controllers.ClaseController",
+    "Method": "ConsultarClase",
+    "RelativePath": "api/Clase/ConsultarClase",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.ClaseController",
+    "Method": "RegistrarClase",
+    "RelativePath": "api/Clase/RegistrarClase",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Model",
-        "Type": "GimnasioApi.Models.Entrenador",
+        "Name": "model",
+        "Type": "GimnasioApi.Models.Clase",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GimnasioApi.Controllers.ErrorController",
-    "Method": "RegistrarError",
-    "RelativePath": "api/Error/RegistrarError",
-    "HttpMethod": "",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -114,6 +84,48 @@
       {
         "Name": "model",
         "Type": "GimnasioApi.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.ProductoController",
+    "Method": "ActualizarEstadoProducto",
+    "RelativePath": "api/Producto/ActualizarEstadoProducto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GimnasioApi.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.ProductoController",
+    "Method": "ConsultarProductos",
+    "RelativePath": "api/Producto/ConsultarProductos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.ProductoController",
+    "Method": "RegistrarProducto",
+    "RelativePath": "api/Producto/RegistrarProducto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GimnasioApi.Models.Producto",
         "IsRequired": true
       }
     ],

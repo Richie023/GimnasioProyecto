@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3FjIyXONi6C96HbyIy8lDCs1HryihxussO8dXrjXOlk=",
+  "Hash": "5ltZMVnQwgWOSUPxhsn/SdeYWlD6JLPgPVHcwNzpP7M=",
   "Source": "GimnasioWeb",
   "BasePath": "_content/GimnasioWeb",
   "Mode": "Default",
@@ -2367,6 +2367,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Identity": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\2.png",
+      "SourceId": "GimnasioWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\",
+      "BasePath": "_content/GimnasioWeb",
+      "RelativePath": "products/2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vshsf760b4",
+      "Integrity": "H5T0SvZiUE13BdUjcuzPFYUC8YXVJlxxVwxtAs0dBV4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\2.png"
     },
     {
       "Identity": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
@@ -5845,7 +5866,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 17:03:21 GMT"
+          "Value": "Wed, 18 Dec 2024 04:48:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5882,7 +5903,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 17:03:21 GMT"
+          "Value": "Wed, 18 Dec 2024 04:48:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5927,7 +5948,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 17:03:21 GMT"
+          "Value": "Wed, 18 Dec 2024 04:48:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5972,7 +5993,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 17:03:21 GMT"
+          "Value": "Wed, 18 Dec 2024 04:48:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13609,6 +13630,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-yG4YOZXULQac31AedgVWLAgc16rDt3mr4/aa9xfU3Uc="
+        }
+      ]
+    },
+    {
+      "Route": "products/2.png",
+      "AssetFile": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1112603"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H5T0SvZiUE13BdUjcuzPFYUC8YXVJlxxVwxtAs0dBV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 06:08:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H5T0SvZiUE13BdUjcuzPFYUC8YXVJlxxVwxtAs0dBV4="
+        }
+      ]
+    },
+    {
+      "Route": "products/2.vshsf760b4.png",
+      "AssetFile": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1112603"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H5T0SvZiUE13BdUjcuzPFYUC8YXVJlxxVwxtAs0dBV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 06:08:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vshsf760b4"
+        },
+        {
+          "Name": "label",
+          "Value": "products/2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H5T0SvZiUE13BdUjcuzPFYUC8YXVJlxxVwxtAs0dBV4="
         }
       ]
     },
