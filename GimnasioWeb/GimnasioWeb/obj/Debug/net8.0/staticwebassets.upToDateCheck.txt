@@ -108,7 +108,9 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\lib\waypoints\waypoints.min.js
+wwwroot\products\1.png
 wwwroot\products\2.png
+wwwroot\products\3.png
 wwwroot\scss\bootstrap\scss\_alert.scss
 wwwroot\scss\bootstrap\scss\_badge.scss
 wwwroot\scss\bootstrap\scss\_breadcrumb.scss

@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/GimnasioProyecto/GimnasioWeb/GimnasioWeb/Views/Clase/ActualizarClase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc2VcQWN0dWFsaXphckNsYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/GimnasioProyecto/GimnasioWeb/GimnasioWeb/Views/Clase/ConsultarClases.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc2VcQ29uc3VsdGFyQ2xhc2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/GimnasioProyecto/GimnasioWeb/GimnasioWeb/Views/Login/RecuperarAcceso.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVjdXBlcmFyQWNjZXNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GimnasioProyecto/GimnasioWeb/GimnasioWeb/Views/Producto/ActualizarProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQWN0dWFsaXphclByb2R1Y3RvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/GimnasioProyecto/GimnasioWeb/GimnasioWeb/Views/Producto/ConsultarProductos.cshtml]

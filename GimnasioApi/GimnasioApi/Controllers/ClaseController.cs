@@ -21,13 +21,13 @@ namespace GimnasioApi.Controllers
     }
 
     [HttpGet]
-    [Route("ConsultarClase")]
-    public IActionResult ConsultarClase()
+    [Route("ConsultarClases")]
+    public IActionResult ConsultarClases()
     {
         using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
         {
             var respuesta = new Respuesta();
-            var result = context.Query<Clase>("ConsultarClase", new { });
+            var result = context.Query<Clase>("ConsultarClases", new { });
 
             if (result.Any())
             {
@@ -37,13 +37,38 @@ namespace GimnasioApi.Controllers
             else
             {
                 respuesta.Codigo = -1;
-                respuesta.Mensaje = "No hay clases registrados en este momento";
+                respuesta.Mensaje = "No hay clases registradas en este momento";
             }
 
             return Ok(respuesta);
         }
     }
-    [HttpPut]
+
+        [HttpGet]
+        [Route("ConsultarClase")]
+        public IActionResult ConsultarClase(int Consecutivo)
+        {
+            using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
+            {
+                var respuesta = new Respuesta();
+                var result = context.QueryFirstOrDefault<Producto>("ConsultarClase", new { Consecutivo });
+
+                if (result != null)
+                {
+                    respuesta.Codigo = 0;
+                    respuesta.Contenido = result;
+                }
+                else
+                {
+                    respuesta.Codigo = -1;
+                    respuesta.Mensaje = "No hay Clases registradas en este momento";
+                }
+
+                return Ok(respuesta);
+            }
+        }
+
+        [HttpPut]
     [Route("ActualizarEstadoClase")]
     public IActionResult ActualizarEstadoClase(Clase model)
     {
@@ -94,19 +119,23 @@ namespace GimnasioApi.Controllers
         }
 
         [HttpPut]
-        [Route("ActualizarProducto")]
-        public IActionResult ActualizarProducto(Producto model)
+        [Route("ActualizarClase")]
+        public IActionResult ActualizarClase(Clase model)
         {
             using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
             {
                 var respuesta = new Respuesta();
 
-                var result = context.Execute("ActualizarProducto", new
+                var result = context.Execute("ActualizarClase", new
                 {
                     model.Consecutivo,
                     model.Nombre,
+                    model.Descripcion,
+                    model.Entrenador,
                     model.Precio,
-                    model.Inventario
+                    model.Cupo,
+                    model.Horario,
+                 
                 });
 
                 if (result > 0)
@@ -126,5 +155,5 @@ namespace GimnasioApi.Controllers
 
     }
 }
-    }
-}
+    
+

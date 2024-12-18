@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5ltZMVnQwgWOSUPxhsn/SdeYWlD6JLPgPVHcwNzpP7M=",
+  "Hash": "smF9ZXfGGJIfyokZUY6GlBqcPigfuVTAnSSkDhTCE+k=",
   "Source": "GimnasioWeb",
   "BasePath": "_content/GimnasioWeb",
   "Mode": "Default",
@@ -2369,6 +2369,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\waypoints\\waypoints.min.js"
     },
     {
+      "Identity": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\1.png",
+      "SourceId": "GimnasioWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\",
+      "BasePath": "_content/GimnasioWeb",
+      "RelativePath": "products/1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kx37g8q6m3",
+      "Integrity": "WKA86bOw7ebWcHjrPEJSo6bIiuPVNGi9YXbrQjME8AY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\1.png"
+    },
+    {
       "Identity": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\2.png",
       "SourceId": "GimnasioWeb",
       "SourceType": "Discovered",
@@ -2388,6 +2409,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\products\\2.png"
+    },
+    {
+      "Identity": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\3.png",
+      "SourceId": "GimnasioWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\",
+      "BasePath": "_content/GimnasioWeb",
+      "RelativePath": "products/3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1y2qzofg27",
+      "Integrity": "lxvZDHogMn3vUNHxaZYe2PwPtmYpqJFNMer5afwM2PI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\3.png"
     },
     {
       "Identity": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
@@ -5866,7 +5908,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 04:48:37 GMT"
+          "Value": "Wed, 18 Dec 2024 16:49:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5903,7 +5945,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 04:48:37 GMT"
+          "Value": "Wed, 18 Dec 2024 16:49:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5948,7 +5990,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 04:48:37 GMT"
+          "Value": "Wed, 18 Dec 2024 16:49:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5993,7 +6035,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 04:48:37 GMT"
+          "Value": "Wed, 18 Dec 2024 16:49:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13634,6 +13676,88 @@
       ]
     },
     {
+      "Route": "products/1.kx37g8q6m3.png",
+      "AssetFile": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121153"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WKA86bOw7ebWcHjrPEJSo6bIiuPVNGi9YXbrQjME8AY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kx37g8q6m3"
+        },
+        {
+          "Name": "label",
+          "Value": "products/1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WKA86bOw7ebWcHjrPEJSo6bIiuPVNGi9YXbrQjME8AY="
+        }
+      ]
+    },
+    {
+      "Route": "products/1.png",
+      "AssetFile": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1121153"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WKA86bOw7ebWcHjrPEJSo6bIiuPVNGi9YXbrQjME8AY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 16:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WKA86bOw7ebWcHjrPEJSo6bIiuPVNGi9YXbrQjME8AY="
+        }
+      ]
+    },
+    {
       "Route": "products/2.png",
       "AssetFile": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\2.png",
       "Selectors": [],
@@ -13712,6 +13836,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-H5T0SvZiUE13BdUjcuzPFYUC8YXVJlxxVwxtAs0dBV4="
+        }
+      ]
+    },
+    {
+      "Route": "products/3.1y2qzofg27.png",
+      "AssetFile": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "263449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lxvZDHogMn3vUNHxaZYe2PwPtmYpqJFNMer5afwM2PI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:34:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1y2qzofg27"
+        },
+        {
+          "Name": "label",
+          "Value": "products/3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lxvZDHogMn3vUNHxaZYe2PwPtmYpqJFNMer5afwM2PI="
+        }
+      ]
+    },
+    {
+      "Route": "products/3.png",
+      "AssetFile": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "263449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lxvZDHogMn3vUNHxaZYe2PwPtmYpqJFNMer5afwM2PI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 15:34:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lxvZDHogMn3vUNHxaZYe2PwPtmYpqJFNMer5afwM2PI="
         }
       ]
     },

@@ -7,28 +7,28 @@
       "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\controllers\\clasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\views\\producto\\registrarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\views\\producto\\registrarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\views\\clase\\registrarclase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\views\\clase\\registrarclase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\views\\clase\\consultarclases.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\views\\clase\\consultarclases.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\views\\producto\\consultarproductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\views\\producto\\consultarproductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\views\\clase\\consultarclases.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\views\\clase\\consultarclases.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\views\\usuario\\actualizarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\views\\usuario\\actualizarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\views\\clase\\actualizarclase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\views\\clase\\actualizarclase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\views\\producto\\actualizarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\views\\producto\\actualizarproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|c:\\gimnasioproyecto\\gimnasioweb\\gimnasioweb\\views\\clase\\registrarclase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E35E7FB-1779-4B29-BF6D-1AE2E47073B1}|GimnasioWeb\\GimnasioWeb.csproj|solutionrelative:gimnasioweb\\views\\clase\\registrarclase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,33 +62,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClaseController.cs",
+              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Controllers\\ClaseController.cs",
+              "RelativeDocumentMoniker": "GimnasioWeb\\Controllers\\ClaseController.cs",
+              "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Controllers\\ClaseController.cs",
+              "RelativeToolTip": "GimnasioWeb\\Controllers\\ClaseController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAqwIEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:11:38.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ActualizarClase.cshtml",
+              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Clase\\ActualizarClase.cshtml",
+              "RelativeDocumentMoniker": "GimnasioWeb\\Views\\Clase\\ActualizarClase.cshtml",
+              "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Clase\\ActualizarClase.cshtml",
+              "RelativeToolTip": "GimnasioWeb\\Views\\Clase\\ActualizarClase.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T16:09:39.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ActualizarProducto.cshtml",
+              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Producto\\ActualizarProducto.cshtml",
+              "RelativeDocumentMoniker": "GimnasioWeb\\Views\\Producto\\ActualizarProducto.cshtml",
+              "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Producto\\ActualizarProducto.cshtml",
+              "RelativeToolTip": "GimnasioWeb\\Views\\Producto\\ActualizarProducto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T15:40:26.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ConsultarProductos.cshtml",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Producto\\ConsultarProductos.cshtml",
               "RelativeDocumentMoniker": "GimnasioWeb\\Views\\Producto\\ConsultarProductos.cshtml",
               "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Producto\\ConsultarProductos.cshtml",
               "RelativeToolTip": "GimnasioWeb\\Views\\Producto\\ConsultarProductos.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-18T06:07:39.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ActualizarPerfil.cshtml",
-              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Usuario\\ActualizarPerfil.cshtml",
-              "RelativeDocumentMoniker": "GimnasioWeb\\Views\\Usuario\\ActualizarPerfil.cshtml",
-              "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Usuario\\ActualizarPerfil.cshtml",
-              "RelativeToolTip": "GimnasioWeb\\Views\\Usuario\\ActualizarPerfil.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T06:07:18.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ConsultarClases.cshtml",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Clase\\ConsultarClases.cshtml",
               "RelativeDocumentMoniker": "GimnasioWeb\\Views\\Clase\\ConsultarClases.cshtml",
@@ -101,52 +127,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "RegistrarClase.cshtml",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Clase\\RegistrarClase.cshtml",
               "RelativeDocumentMoniker": "GimnasioWeb\\Views\\Clase\\RegistrarClase.cshtml",
               "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Clase\\RegistrarClase.cshtml",
               "RelativeToolTip": "GimnasioWeb\\Views\\Clase\\RegistrarClase.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADQAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-18T05:17:21.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegistrarProducto.cshtml",
-              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Producto\\RegistrarProducto.cshtml",
-              "RelativeDocumentMoniker": "GimnasioWeb\\Views\\Producto\\RegistrarProducto.cshtml",
-              "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Views\\Producto\\RegistrarProducto.cshtml",
-              "RelativeToolTip": "GimnasioWeb\\Views\\Producto\\RegistrarProducto.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T05:15:56.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClaseController.cs",
-              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Controllers\\ClaseController.cs",
-              "RelativeDocumentMoniker": "GimnasioWeb\\Controllers\\ClaseController.cs",
-              "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Controllers\\ClaseController.cs",
-              "RelativeToolTip": "GimnasioWeb\\Controllers\\ClaseController.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAAAOIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T04:07:22.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "GimnasioWeb\\Controllers\\ProductoController.cs",
               "ToolTip": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "GimnasioWeb\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAQwOEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAKsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T02:55:05.488Z",
               "EditorCaption": ""

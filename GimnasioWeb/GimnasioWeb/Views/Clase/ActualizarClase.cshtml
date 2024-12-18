@@ -1,0 +1,52 @@
+﻿﻿@using GimnasioWeb.Models
+@model GimnasioWeb.Models.Clase
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title fw-semibold mb-4">Actualizar Clase</h5>
+
+        @if (ViewBag.Mensaje != null)
+        {
+            <div class="alert alert-secondary text-center">@ViewBag.Mensaje</div>
+        }
+        <form asp-action="ActualizarClase" asp-controller="Clase" enctype="multipart/form-data">
+            <input type="hidden" asp-for="Consecutivo" class="form-control">
+            <div class="mb-3">
+                <label class="form-label">Nombre</label>
+                <input type="text" asp-for="Nombre" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Descripcion</label>
+                <input type="text" asp-for="Descripcion" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Entrenador</label>
+                <input type="text" asp-for="Entrenador" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Precio</label>
+                <input type="text" asp-for="Precio" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Cupo</label>
+                <input type="text" asp-for="Cupo" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Horario</label>
+                <input type="date" asp-for="Horario" class="form-control">
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">Imagen</label>
+                <input type="file" class="form-control" accept="image/png" id="ImagenProducto" name="ImagenProducto">
+            </div>
+
+            <input type="submit" class="btn btn-primary" value="Procesar">
+        </form>
+
+    </div>
+</div>

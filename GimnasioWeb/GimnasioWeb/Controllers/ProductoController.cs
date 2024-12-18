@@ -50,27 +50,7 @@ namespace GimnasioWeb.Controllers
                 }
             }
         }
-        private List<Producto> ObtenerProductos()
-        {
-          
-            using (var client = _http.CreateClient())
-            {
-                string url = _conf.GetSection("Variables:UrlApi").Value + "Producto/ConsultarProductos";
-
-                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("TokenUsuario"));
-
-                var response = client.GetAsync(url).Result;
-                var result = response.Content.ReadFromJsonAsync<Respuesta>().Result;
-
-                if (result != null && result.Codigo == 0)
-                {
-                    var datosContenido = JsonSerializer.Deserialize<List<Producto>>((JsonElement)result.Contenido!);
-                    return datosContenido!;
-                }
-
-                return new List<Producto>();
-            }
-        }
+      
 
         [HttpGet]
         public IActionResult RegistrarProducto()
@@ -224,5 +204,5 @@ namespace GimnasioWeb.Controllers
 
     }
 }
-    }
-}
+    
+

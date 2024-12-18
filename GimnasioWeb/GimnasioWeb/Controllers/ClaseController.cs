@@ -51,27 +51,7 @@ namespace GimnasioWeb.Controllers
                     }
                 }
             }
-            private List<Clase> ObtenerClases()
-            {
-
-                using (var client = _http.CreateClient())
-                {
-                    string url = _conf.GetSection("Variables:UrlApi").Value + "Clase/ConsultarClase";
-
-                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("TokenUsuario"));
-
-                    var response = client.GetAsync(url).Result;
-                    var result = response.Content.ReadFromJsonAsync<Respuesta>().Result;
-
-                    if (result != null && result.Codigo == 0)
-                    {
-                        var datosContenido = JsonSerializer.Deserialize<List<Clase>>((JsonElement)result.Contenido!);
-                        return datosContenido!;
-                    }
-
-                    return new List<Clase>();
-                }
-            }
+       
 
         [HttpGet]
         public IActionResult RegistrarClase()
@@ -129,21 +109,21 @@ namespace GimnasioWeb.Controllers
             }
         }
         [HttpGet]
-        public IActionResult ActualizarProducto(long Consecutivo)
+        public IActionResult ActualizarClase(long Consecutivo)
         {
-            return View(ObtenerProducto(Consecutivo));
+            return View(ObtenerClase(Consecutivo));
         }
 
         [HttpPost]
-        public IActionResult ActualizarProducto(IFormFile ImagenProducto, Producto model)
+        public IActionResult ActualizarClase(IFormFile ImagenClase, Clase model)
         {
             var ext = string.Empty;
             var folder = string.Empty;
 
-            if (ImagenProducto != null)
+            if (ImagenClase != null)
             {
-                ext = Path.GetExtension(Path.GetFileName(ImagenProducto.FileName));
-                folder = Path.Combine(_env.ContentRootPath, "wwwroot\\products");
+                ext = Path.GetExtension(Path.GetFileName(ImagenClase.FileName));
+                folder = Path.Combine(_env.ContentRootPath, "wwwroot\\class");
 
                 if (ext.ToLower() != ".png")
                 {
@@ -154,7 +134,7 @@ namespace GimnasioWeb.Controllers
 
             using (var client = _http.CreateClient())
             {
-                var url = _conf.GetSection("Variables:UrlApi").Value + "Producto/ActualizarProducto";
+                var url = _conf.GetSection("Variables:UrlApi").Value + "Clase/ActualizarClase";
 
                 JsonContent datos = JsonContent.Create(model);
 
@@ -164,16 +144,16 @@ namespace GimnasioWeb.Controllers
 
                 if (result != null && result.Codigo == 0)
                 {
-                    if (ImagenProducto != null)
+                    if (ImagenClase != null)
                     {
                         var archivo = Path.Combine(folder, model.Consecutivo + ext);
                         using (Stream fs = new FileStream(archivo, FileMode.Create))
                         {
-                            ImagenProducto.CopyTo(fs);
+                            ImagenClase.CopyTo(fs);
                         }
                     }
 
-                    return RedirectToAction("ConsultarProductos", "Producto");
+                    return RedirectToAction("ConsultarClases", "Clase");
                 }
                 else
                 {
@@ -183,11 +163,11 @@ namespace GimnasioWeb.Controllers
             }
         }
 
-        private List<Producto> ObtenerProductos()
+        private List<Clase> ObtenerClases()
         {
             using (var client = _http.CreateClient())
             {
-                string url = _conf.GetSection("Variables:UrlApi").Value + "Producto/ConsultarProductos";
+                string url = _conf.GetSection("Variables:UrlApi").Value + "Clase/ConsultarClases";
 
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("TokenUsuario"));
                 var response = client.GetAsync(url).Result;
@@ -195,19 +175,19 @@ namespace GimnasioWeb.Controllers
 
                 if (result != null && result.Codigo == 0)
                 {
-                    var datosContenido = JsonSerializer.Deserialize<List<Producto>>((JsonElement)result.Contenido!);
+                    var datosContenido = JsonSerializer.Deserialize<List<Clase>>((JsonElement)result.Contenido!);
                     return datosContenido!;
                 }
 
-                return new List<Producto>();
+                return new List<Clase>();
             }
         }
 
-        private Producto? ObtenerProducto(long Consecutivo)
+        private Clase? ObtenerClase(long Consecutivo)
         {
             using (var client = _http.CreateClient())
             {
-                string url = _conf.GetSection("Variables:UrlApi").Value + "Producto/ConsultarProducto?Consecutivo=" + Consecutivo;
+                string url = _conf.GetSection("Variables:UrlApi").Value + "Clase/ConsultarClase?Consecutivo=" + Consecutivo;
 
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("TokenUsuario"));
                 var response = client.GetAsync(url).Result;
@@ -215,15 +195,15 @@ namespace GimnasioWeb.Controllers
 
                 if (result != null && result.Codigo == 0)
                 {
-                    return JsonSerializer.Deserialize<Producto>((JsonElement)result.Contenido!);
+                    return JsonSerializer.Deserialize<Clase>((JsonElement)result.Contenido!);
                 }
 
-                return new Producto();
+                return new Clase();
             }
         }
 
 
     }
 }
-    }
-    }
+  
+    

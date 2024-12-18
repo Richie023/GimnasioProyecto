@@ -27,7 +27,7 @@ namespace GimnasioApi.Controllers
             using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
             {
                 var respuesta = new Respuesta();
-                var result = context.Query<Producto>("ConsultarProducto", new { });
+                var result = context.Query<Producto>("ConsultarProductos", new { });
 
                 if (result.Any())
                 {
@@ -43,6 +43,32 @@ namespace GimnasioApi.Controllers
                 return Ok(respuesta);
             }
         }
+
+        [HttpGet]
+        [Route("ConsultarProducto")]
+        public IActionResult ConsultarProducto(int Consecutivo)
+        {
+            using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
+            {
+                var respuesta = new Respuesta();
+                var result = context.QueryFirstOrDefault<Producto>("ConsultarProducto", new { Consecutivo });
+
+                if (result != null)
+                {
+                    respuesta.Codigo = 0;
+                    respuesta.Contenido = result;
+                }
+                else
+                {
+                    respuesta.Codigo = -1;
+                    respuesta.Mensaje = "No hay productos registrados en este momento";
+                }
+
+                return Ok(respuesta);
+            }
+        }
+
+
         [HttpPut]
         [Route("ActualizarEstadoProducto")]
         public IActionResult ActualizarEstadoProducto(Producto model)
@@ -127,5 +153,5 @@ namespace GimnasioApi.Controllers
 
     }
 }
-    }
-}
+    
+

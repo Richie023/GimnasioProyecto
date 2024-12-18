@@ -445,8 +445,16 @@
       "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
     },
     {
+      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\1.png",
+      "PackagePath": "staticwebassets\\products\\1.png"
+    },
+    {
       "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\2.png",
       "PackagePath": "staticwebassets\\products\\2.png"
+    },
+    {
+      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\products\\3.png",
+      "PackagePath": "staticwebassets\\products\\3.png"
     },
     {
       "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
