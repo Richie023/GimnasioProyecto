@@ -1,52 +1,81 @@
-﻿﻿@using GimnasioWeb.Models
+﻿@using GimnasioWeb.Models
 @model GimnasioWeb.Models.Clase
 
-<div class="card">
-    <div class="card-body">
-        <h5 class="card-title fw-semibold mb-4">Actualizar Clase</h5>
+@{
+    Layout = "~/Views/Shared/_Layout_Externo.cshtml";
+}
 
-        @if (ViewBag.Mensaje != null)
-        {
-            <div class="alert alert-secondary text-center">@ViewBag.Mensaje</div>
-        }
-        <form asp-action="ActualizarClase" asp-controller="Clase" enctype="multipart/form-data">
-            <input type="hidden" asp-for="Consecutivo" class="form-control">
-            <div class="mb-3">
-                <label class="form-label">Nombre</label>
-                <input type="text" asp-for="Nombre" class="form-control">
+<!-- Page Header -->
+<div class="container-fluid page-header mb-5 bg-primary text-white">
+    <div class="d-flex flex-column align-items-center justify-content-center pt-5" style="min-height: 400px;">
+        <h4 class="display-4 mb-3 text-uppercase font-weight-bold">Actualizar Clase</h4>
+        <div class="d-inline-flex">
+            <p class="m-0"><a class="text-white" href="/">Inicio</a></p>
+            <p class="m-0 px-2">/</p>
+            <p class="m-0"><a class="text-white" href="@Url.Action("ListaClases", "Clase")">Clases</a></p>
+            <p class="m-0 px-2">/</p>
+            <p class="m-0">Actualizar Clase</p>
+        </div>
+    </div>
+</div>
+
+<!-- Formulario Actualizar Clase -->
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold mb-4">Actualizar Clase</h5>
+
+                    @if (ViewBag.Mensaje != null)
+                    {
+                        <div class="alert alert-info text-center">@ViewBag.Mensaje</div>
+                    }
+
+                    <form asp-action="ActualizarClase" asp-controller="Clase" enctype="multipart/form-data">
+                        <input type="hidden" asp-for="Consecutivo" class="form-control">
+
+                        <div class="mb-3">
+                            <label asp-for="Nombre" class="form-label">Nombre</label>
+                            <input type="text" asp-for="Nombre" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Descripcion" class="form-label">Descripción</label>
+                            <input type="text" asp-for="Descripcion" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Entrenador" class="form-label">Entrenador</label>
+                            <input type="text" asp-for="Entrenador" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Precio" class="form-label">Precio</label>
+                            <input type="text" asp-for="Precio" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Cupo" class="form-label">Cupo</label>
+                            <input type="number" asp-for="Cupo" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Horario" class="form-label">Horario</label>
+                            <input type="datetime-local" asp-for="Horario" class="form-control">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="ImagenProducto" class="form-label">Imagen</label>
+                            <input type="file" class="form-control" accept="image/png, image/jpeg" id="ImagenProducto" name="ImagenProducto">
+                        </div>
+
+                        <div class="text-end">
+                            <input type="submit" class="btn btn-primary" value="Actualizar Clase">
+                        </div>
+                    </form>
+                </div>
             </div>
-
-            <div class="mb-3">
-                <label class="form-label">Descripcion</label>
-                <input type="text" asp-for="Descripcion" class="form-control">
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label">Entrenador</label>
-                <input type="text" asp-for="Entrenador" class="form-control">
-            </div>
-            <div class="mb-3">
-                <label class="form-label">Precio</label>
-                <input type="text" asp-for="Precio" class="form-control">
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label">Cupo</label>
-                <input type="text" asp-for="Cupo" class="form-control">
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label">Horario</label>
-                <input type="date" asp-for="Horario" class="form-control">
-            </div>
-
-            <div class="mb-4">
-                <label class="form-label">Imagen</label>
-                <input type="file" class="form-control" accept="image/png" id="ImagenProducto" name="ImagenProducto">
-            </div>
-
-            <input type="submit" class="btn btn-primary" value="Procesar">
-        </form>
-
+        </div>
     </div>
 </div>

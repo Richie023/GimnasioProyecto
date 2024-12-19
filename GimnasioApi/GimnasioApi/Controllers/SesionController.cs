@@ -39,6 +39,27 @@ namespace GimnasioApi.Controllers
                 return Ok(respuesta);
             }
         }
+        [HttpPost]
+        [Route("ConsultarSesion")]
+        public IActionResult ConsultarSesion(Sesion model)
+        {
+            using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
+            {
+                var respuesta = new Respuesta();
+                var result = context.Execute("ConsultarSesiones", new { model.IdUsuario, model.ConsecutivoClase, model.Cupos });
 
+                if (result > 0)
+                {
+                    respuesta.Codigo = 0;
+                }
+                else
+                {
+                    respuesta.Codigo = -1;
+                    respuesta.Mensaje = "La sesion no se ha actualizado correctamente en su carrito";
+                }
+
+                return Ok(respuesta);
+            }
+        }
     }
 }

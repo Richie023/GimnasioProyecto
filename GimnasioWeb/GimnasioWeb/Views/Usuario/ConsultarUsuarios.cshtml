@@ -1,7 +1,7 @@
 ﻿@model List<GimnasioWeb.Models.Usuario>
 
 @{
-    Layout = "~/Views/Shared/_Layout_EXterno.cshtml";
+    Layout = "~/Views/Shared/_Layout_Externo.cshtml";
 }
 
 <div class="card">
@@ -10,14 +10,13 @@
 
         @if (ViewBag.Mensaje != null)
         {
-            <div class="alert alert-secondary text-center">@ViewBag.Mensaje</div>
+            <div class="alert alert-info text-center">@ViewBag.Mensaje</div>
         }
-
 
         <div class="table-responsive">
             <table id="example" class="table text-nowrap align-middle mb-0">
                 <thead>
-                    <tr class="border-2 border-bottom border-primary border-0">
+                    <tr class="border-2 border-bottom border-primary">
                         <th># de usuario</th>
                         <th>Nombre</th>
                         <th>Correo</th>
@@ -26,7 +25,7 @@
                         <th>Acciones</th>
                     </tr>
                 </thead>
-                <tbody class="table-group-divider">
+                <tbody>
                     @foreach (var item in Model)
                     {
                         <tr>
@@ -34,76 +33,68 @@
                             <td>@item.Nombre</td>
                             <td>@item.Correo</td>
                             <td>@item.NombreRol</td>
-                            <td> @item.Estado </td>
+                            <td>@item.Estado </td>
                             <td>
-
-                                <a href="@Url.Action("ActualizarUsuario","Usuario" , new {IdUsuario = item.IdUsuario })" class="btn">
+                                <a href="@Url.Action("ActualizarUsuario", "Usuario", new { IdUsuario = item.IdUsuario })" class="btn btn-light">
                                     <i class="fa fa-edit" style="font-size:1.6em;"></i>
                                 </a>
-
-                      
-                           
-                                <a id ="AbrirModal" href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                    data-idusuario="@item.IdUsuario" data-nombre="@item.Nombre">
+                                <button class="btn btn-light btn-cambiar-estado"
+                                        data-idusuario="@item.IdUsuario"
+                                        data-nombre="@item.Nombre">
                                     <i class="fa fa-trash" style="font-size:1.6em;"></i>
-                                </a>
+                                </button>
                             </td>
-
-
                         </tr>
-
                     }
                 </tbody>
             </table>
         </div>
     </div>
 </div>
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content" style="width:650px">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Confirmacion</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            
-            </div>
-            <form asp-action="ActualizarEstado" asp-controller="Usuario"> 
-            <div class="modal-body">
 
-                <input type="hidden" id="IdUsuario" name="IdUsuario" value="">
-                ¿Desea cambiar el estado del usuario <label id="Nombre"></label>?
-            </div>
-            <div class="modal-footer">
-             
-                <button type="submit" class="btn btn-primary">Procesar</button>
-            </div>
-            </form>
-        </div>
-    </div>
-</div>
-
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 <script>
-
     $(document).ready(function () {
-    
         $("#example").DataTable({
             language: {
                 url: '//cdn.datatables.net/plug-ins/2.1.8/i18n/es-ES.json',
             },
             columnDefs: [
-                { targets: [0,1,2,3,4], type:"string" }
-            ]
+                { targets: [0, 1, 2, 3, 4], type: "string" }
+            ],
+            order: [[0, "asc"]]
         });
-    
     });
 
-    $(document).on("click","#AbrirModal", function() {
-        $("#IdUsuario").val( $(this).attr("data-idusuario") );
-        $("#Nombre").text( $(this).attr("data-nombre") );
-    });
+    $(document).on("click", ".btn-cambiar-estado", function () {
+        const idUsuario = $(this).data("idusuario");
+        const nombre = $(this).data("nombre");
 
+        Swal.fire({
+            title: "¿Cambiar estado?",
+            text: `¿Desea cambiar el estado del usuario ${nombre}?`,
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: "Sí, cambiar",
+            cancelButtonText: "Cancelar"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: '@Url.Action("ActualizarEstado", "Usuario")',
+                    type: 'POST',
+                    data: { IdUsuario: idUsuario },
+                    success: function (response) {
+                        Swal.fire("Estado actualizado", response.mensaje, "success").then(() => {
+                            location.reload();
+                        });
+                    },
+                    error: function () {
+                        Swal.fire("Error", "No se pudo actualizar el estado", "error");
+                    }
+                });
+            }
+        });
+    });
 </script>
-
-

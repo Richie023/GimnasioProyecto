@@ -1,45 +1,65 @@
-﻿﻿@using GimnasioWeb.Models
+﻿@using GimnasioWeb.Models
 @model GimnasioWeb.Models.Producto
 
-<div class="card">
-    <div class="card-body">
-        <h5 class="card-title fw-semibold mb-4">Actualizar Producto</h5>
+<!-- Page Header Start -->
+<div class="container-fluid page-header mb-5">
+    <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
+        <h4 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase font-weight-bold">Actualizar Producto</h4>
+        <div class="d-inline-flex">
+            <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
+            <p class="m-0 text-white px-2">/</p>
+            <p class="m-0 text-white"> Producto</p>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
 
-        @if (ViewBag.Mensaje != null)
-        {
-            <div class="alert alert-secondary text-center">@ViewBag.Mensaje</div>
-        }
-        <form asp-action="ActualizarProducto" asp-controller="Producto" enctype="multipart/form-data">
-        <input type="hidden" asp-for="Consecutivo" class="form-control">
+<div class="container gym-class mb-5">
+    <div class="row px-3">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold mb-4">Actualizar Producto</h5>
 
-            <div class="mb-3">
-                <label class="form-label">Nombre</label>
-                <input type="text" asp-for="Nombre" class="form-control">
-            </div>
+                    @if (ViewBag.Mensaje != null)
+                    {
+                        <div class="alert alert-secondary text-center">@ViewBag.Mensaje</div>
+                    }
 
-            <div class="mb-3">
-                <label class="form-label">Precio</label>
-                <input type="text" asp-for="Precio" class="form-control">
-            </div>
+                    <form asp-action="ActualizarProducto" asp-controller="Producto" enctype="multipart/form-data">
+                        <input type="hidden" asp-for="Consecutivo" class="form-control">
 
-            <div class="mb-3">
-                <label class="form-label">Inventario</label>
-                <input type="text" asp-for="Inventario" class="form-control">
-            </div>
+                        <div class="mb-3">
+                            <label for="Nombre" class="form-label">Nombre</label>
+                            <input type="text" asp-for="Nombre" id="Nombre" class="form-control" placeholder="Ingrese el nombre del producto">
+                        </div>
 
-            <div class="mb-3 row">
-                <div class="col-9">
-                    <label class="form-label">Imagen</label>
-                    <input type="file" class="form-control" accept="image/png" id="ImagenProducto" name="ImagenProducto">
+                        <div class="mb-3">
+                            <label for="Precio" class="form-label">Precio</label>
+                            <input type="text" asp-for="Precio" id="Precio" class="form-control" placeholder="Ingrese el precio">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Inventario" class="form-label">Inventario</label>
+                            <input type="text" asp-for="Inventario" id="Inventario" class="form-control" placeholder="Ingrese la cantidad en inventario">
+                        </div>
+
+                        <div class="mb-3 row align-items-center">
+                            <div class="col-md-9">
+                                <label for="ImagenProducto" class="form-label">Imagen</label>
+                                <input type="file" class="form-control" accept="image/png" id="ImagenProducto" name="ImagenProducto">
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <img src="@Model.Imagen" alt="Imagen del producto" class="img-thumbnail" style="max-width: 100%; height: auto;">
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Procesar</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-3 text-center">
-                    <img src="@Model.Imagen" style="width:180px; height:200px">
-                </div>
             </div>
-
-            <input type="submit" class="btn btn-primary" value="Procesar">
-
-        </form>
-
+        </div>
     </div>
 </div>

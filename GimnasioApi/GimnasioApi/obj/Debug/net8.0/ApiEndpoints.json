@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "GimnasioApi.Controllers.CarritoController",
+    "Method": "ConsultarCarrito",
+    "RelativePath": "api/Carrito/ConsultarCarrito",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GimnasioApi.Models.Carrito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.CarritoController",
     "Method": "RegistrarCarrito",
     "RelativePath": "api/Carrito/RegistrarCarrito",
     "HttpMethod": "POST",
@@ -206,6 +222,22 @@
       {
         "Name": "model",
         "Type": "GimnasioApi.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.SesionController",
+    "Method": "ConsultarSesion",
+    "RelativePath": "api/Sesion/ConsultarSesion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GimnasioApi.Models.Sesion",
         "IsRequired": true
       }
     ],

@@ -62,9 +62,9 @@
               "Title": "SesionController.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\SesionController.cs",
               "RelativeDocumentMoniker": "GimnasioApi\\Controllers\\SesionController.cs",
-              "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\SesionController.cs",
-              "RelativeToolTip": "GimnasioApi\\Controllers\\SesionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\SesionController.cs*",
+              "RelativeToolTip": "GimnasioApi\\Controllers\\SesionController.cs*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwDcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T23:31:20.414Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "GimnasioApi\\Models\\Sesion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T23:30:06.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T23:30:06.036Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "GimnasioApi\\Models\\Carrito.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T23:28:46.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T23:28:46.132Z"
             },
             {
               "$type": "Document",
@@ -103,7 +101,7 @@
               "RelativeDocumentMoniker": "GimnasioApi\\Controllers\\CarritoController.cs",
               "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\CarritoController.cs",
               "RelativeToolTip": "GimnasioApi\\Controllers\\CarritoController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAmwA4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T23:27:09.739Z",
               "EditorCaption": ""
@@ -118,8 +116,7 @@
               "RelativeToolTip": "GimnasioApi\\Controllers\\ClaseController.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAAAKUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T04:14:17.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T04:14:17.811Z"
             },
             {
               "$type": "Document",

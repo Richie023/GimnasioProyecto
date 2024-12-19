@@ -1,60 +1,73 @@
 ﻿@using GimnasioWeb.Models
 @model GimnasioWeb.Models.Usuario
 
-
-
-
-<div class="card">
-    <div class="card-body">
-        <h5 class="card-title fw-semibold mb-4">Actualizar Usuario</h5>
-
- 
-
-        @if (ViewBag.Mensaje != null)
-        {
-            <div class="alert alert-secondary text-center">@ViewBag.Mensaje</div>
-        }
-
-        <form asp-action="ActualizarUsuario" asp-controller="Usuario">
-            <input type="hidden" asp-for="IdUsuario" class="form-control" />
-            <div class="mb-3">
-                <label class="form-label">Identificación</label>
-                <input type="text" asp-for="Identificacion" class="form-control"
-                       onkeyup="ConsultarNombre();">
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label">Nombre</label>
-                <input type="text" asp-for="Nombre" class="form-control" >
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label">Correo Electrónico</label>
-                <input type="email" asp-for="Correo" class="form-control">
-            </div>
-
-            <div class="mb-4">
-                <label class="form-label">Rol</label>
-                <select asp-for="Rol" class="form-control">
-                    @{
-                        var roles = ViewBag.DropDownRoles as List<Rol>;
-                        if (roles != null)
-                        {
-                            @foreach (var item in roles)
-                            {
-                                <option value="@item.IdRol">@item.NombreRol</option>
-                    
-                            }
-                    }   }
-                    </select>
-               
-            </div>
-
-            <input type="submit" class="btn btn-primary" value="Procesar">
-
-        </form>
-
+<!-- Page Header Start -->
+<div class="container-fluid page-header mb-5">
+    <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
+        <h4 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase font-weight-bold">Actualizar Perfil</h4>
+        <div class="d-inline-flex">
+            <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
+            <p class="m-0 text-white px-2">/</p>
+            <p class="m-0 text-white">Perfil</p>
+        </div>
     </div>
 </div>
+<!-- Page Header End -->
 
-<script src="~/js/comunes.js"></script>
+<div class="container gym-class mb-5">
+    <div class="row px-3">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold mb-4">Actualizar Perfil</h5>
+
+                    @if (ViewBag.Mensaje != null)
+                    {
+                        <div class="alert alert-secondary text-center">@ViewBag.Mensaje</div>
+                    }
+
+                    <form asp-action="ActualizarUsuario" asp-controller="Usuario" enctype="multipart/form-data">
+                        <input type="hidden" asp-for="IdUsuario" class="form-control">
+
+                        <div class="mb-3">
+                            <label for="Identificacion" class="form-label">Identificación</label>
+                            <input type="text" asp-for="Identificacion" id="Identificacion" class="form-control" placeholder="Ingrese su identificación">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Nombre" class="form-label">Nombre</label>
+                            <input type="text" asp-for="Nombre" id="Nombre" class="form-control" placeholder="Ingrese su nombre">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Correo" class="form-label">Correo Electrónico</label>
+                            <input type="email" asp-for="Correo" id="Correo" class="form-control" placeholder="Ingrese su correo electrónico">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Rol" class="form-label">Rol</label>
+                            <select asp-for="Rol" id="Rol" class="form-control">
+                                @{
+                                    var roles = ViewBag.DropDownRoles as List<Rol>;
+                                    if (roles != null)
+                                    {
+                                        @foreach (var item in roles)
+                                        {
+                                            <option value="@item.IdRol">@item.NombreRol</option>
+                                        }
+                                    }
+                                }
+                            </select>
+                        </div>
+
+                 
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Procesar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

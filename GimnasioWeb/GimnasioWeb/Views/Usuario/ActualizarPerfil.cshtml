@@ -4,45 +4,59 @@
     Layout = "~/Views/Shared/_Layout_Externo.cshtml";
 }
 
+<!-- Page Header Start -->
+<div class="container-fluid page-header mb-5">
+    <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
+        <h4 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase font-weight-bold">Actualizar Perfil</h4>
+        <div class="d-inline-flex">
+            <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
+            <p class="m-0 text-white px-2">/</p>
+            <p class="m-0 text-white">Perfil</p>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
 
-<div class="card">
-    <div class="card-body">
-        <h5 class="card-title fw-semibold mb-4">Actualizar Perfil</h5>
+<div class="container gym-class mb-5">
+    <div class="row px-3">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold mb-4">Actualizar Perfil</h5>
 
-        @if (ViewBag.Mensaje != null)
-        {
-            <div class="alert alert-secondary text-center">@ViewBag.Mensaje</div>
-        }
+                    @if (ViewBag.Mensaje != null)
+                    {
+                        <div class="alert alert-secondary text-center">@ViewBag.Mensaje</div>
+                    }
 
-        <form asp-action="ActualizarPerfil" asp-controller="Usuario">
+                    <form asp-action="ActualizarPerfil" asp-controller="Usuario">
+                        <div class="mb-3">
+                            <label class="form-label">Identificación</label>
+                            <input type="text" asp-for="Identificacion" class="form-control" onkeyup="ConsultarNombre();">
+                        </div>
 
-            <div class="mb-3">
-                <label class="form-label">Identificación</label>
-                <input type="text" asp-for="Identificacion" class="form-control"
-                       onkeyup="ConsultarNombre();">
+                        <div class="mb-3">
+                            <label class="form-label">Nombre</label>
+                            <input type="text" asp-for="Nombre" class="form-control" readonly="readonly" style="background-color:#f1f1f1">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Correo Electrónico</label>
+                            <input type="email" asp-for="Correo" class="form-control">
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label">Rol</label>
+                            <input type="text" asp-for="NombreRol" class="form-control" readonly="readonly" style="background-color:#f1f1f1">
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Procesar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-
-            <div class="mb-3">
-                <label class="form-label">Nombre</label>
-                <input type="text" asp-for="Nombre" class="form-control" readonly="readonly"
-                       style="background-color:#f1f1f1">
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label">Correo Electrónico</label>
-                <input type="email" asp-for="Correo" class="form-control">
-            </div>
-
-            <div class="mb-4">
-                <label class="form-label">Rol</label>
-                <input type="text" asp-for="NombreRol" class="form-control" readonly="readonly"
-                       style="background-color:#f1f1f1">
-            </div>
-
-            <input type="submit" class="btn btn-primary" value="Procesar">
-
-        </form>
-
+        </div>
     </div>
 </div>
 
