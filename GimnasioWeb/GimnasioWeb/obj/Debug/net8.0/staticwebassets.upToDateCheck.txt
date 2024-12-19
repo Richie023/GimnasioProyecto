@@ -1,3 +1,6 @@
+wwwroot\class\1.png
+wwwroot\class\2.png
+wwwroot\class\3.png
 wwwroot\css\site.css
 wwwroot\css\style.min.css
 wwwroot\css\tablas.css

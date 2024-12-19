@@ -20,6 +20,7 @@ namespace GimnasioApi.Controllers
             _conf = conf;
         }
 
+        [AllowAnonymous]
         [HttpGet]
         [Route("ConsultarProductos")]
         public IActionResult ConsultarProductos()
@@ -44,6 +45,7 @@ namespace GimnasioApi.Controllers
             }
         }
 
+        [Authorize]
         [HttpGet]
         [Route("ConsultarProducto")]
         public IActionResult ConsultarProducto(int Consecutivo)
@@ -68,7 +70,7 @@ namespace GimnasioApi.Controllers
             }
         }
 
-
+        [Authorize]
         [HttpPut]
         [Route("ActualizarEstadoProducto")]
         public IActionResult ActualizarEstadoProducto(Producto model)
@@ -96,6 +98,7 @@ namespace GimnasioApi.Controllers
             }
         }
 
+        [Authorize]
         [HttpPost]
         [Route("RegistrarProducto")]
         public IActionResult RegistrarProducto(Producto model)
@@ -119,7 +122,7 @@ namespace GimnasioApi.Controllers
                 return Ok(respuesta);
             }
         }
-
+        [Authorize]
         [HttpPut]
         [Route("ActualizarProducto")]
         public IActionResult ActualizarProducto(Producto model)

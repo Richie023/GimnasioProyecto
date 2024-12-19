@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\GimnasioWeb.rwkad8q5rw.bundle.scp.css"
     },
     {
+      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\class\\1.png",
+      "PackagePath": "staticwebassets\\class\\1.png"
+    },
+    {
+      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\class\\2.png",
+      "PackagePath": "staticwebassets\\class\\2.png"
+    },
+    {
+      "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\class\\3.png",
+      "PackagePath": "staticwebassets\\class\\3.png"
+    },
+    {
       "Id": "C:\\GimnasioProyecto\\GimnasioWeb\\GimnasioWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

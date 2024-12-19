@@ -20,30 +20,32 @@ namespace GimnasioApi.Controllers
         _conf = conf;
     }
 
-    [HttpGet]
-    [Route("ConsultarClases")]
-    public IActionResult ConsultarClases()
-    {
-        using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
+        [AllowAnonymous]
+        [HttpGet]
+        [Route("ConsultarClases")]
+        public IActionResult ConsultarClases()
         {
-            var respuesta = new Respuesta();
-            var result = context.Query<Clase>("ConsultarClases", new { });
-
-            if (result.Any())
+            using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
             {
-                respuesta.Codigo = 0;
-                respuesta.Contenido = result;
-            }
-            else
-            {
-                respuesta.Codigo = -1;
-                respuesta.Mensaje = "No hay clases registradas en este momento";
-            }
+                var respuesta = new Respuesta();
+                var result = context.Query<Clase>("ConsultarClases", new { });
 
-            return Ok(respuesta);
+                if (result.Any())
+                {
+                    respuesta.Codigo = 0;
+                    respuesta.Contenido = result;
+                }
+                else
+                {
+                    respuesta.Codigo = -1;
+                    respuesta.Mensaje = "No hay clases registradas en este momento";
+                }
+
+                return Ok(respuesta);
+            }
         }
-    }
 
+        [Authorize]
         [HttpGet]
         [Route("ConsultarClase")]
         public IActionResult ConsultarClase(int Consecutivo)
@@ -68,32 +70,35 @@ namespace GimnasioApi.Controllers
             }
         }
 
+        [Authorize]
         [HttpPut]
-    [Route("ActualizarEstadoClase")]
-    public IActionResult ActualizarEstadoClase(Clase model)
-    {
-        using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
+        [Route("ActualizarEstadoClase")]
+        public IActionResult ActualizarEstadoClase(Clase model)
         {
-            var respuesta = new Respuesta();
-
-            var result = context.Execute("ActualizarEstadoClase", new
+            using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
             {
-                model.Consecutivo
-            });
+                var respuesta = new Respuesta();
 
-            if (result > 0)
-            {
-                respuesta.Codigo = 0;
+                var result = context.Execute("ActualizarEstadoClase", new
+                {
+                    model.Consecutivo
+                });
+
+                if (result > 0)
+                {
+                    respuesta.Codigo = 0;
+                }
+                else
+                {
+                    respuesta.Codigo = -1;
+                    respuesta.Mensaje = "El estado de la clase no se ha actualizado correctamente";
+                }
+
+                return Ok(respuesta);
             }
-            else
-            {
-                respuesta.Codigo = -1;
-                respuesta.Mensaje = "El estado de la clase no se ha actualizado correctamente";
-            }
-
-            return Ok(respuesta);
         }
-    }
+
+        [Authorize]
         [HttpPost]
         [Route("RegistrarClase")]
         public IActionResult RegistrarClase(Clase model)
@@ -118,6 +123,7 @@ namespace GimnasioApi.Controllers
             }
         }
 
+        [Authorize]
         [HttpPut]
         [Route("ActualizarClase")]
         public IActionResult ActualizarClase(Clase model)

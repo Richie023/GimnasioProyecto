@@ -168,7 +168,7 @@ namespace GimnasioWeb.Controllers
             {
                 string url = _conf.GetSection("Variables:UrlApi").Value + "Producto/ConsultarProductos";
 
-                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("TokenUsuario"));
+               
                 var response = client.GetAsync(url).Result;
                 var result = response.Content.ReadFromJsonAsync<Respuesta>().Result;
 

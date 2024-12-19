@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\GimnasioProyecto\\GimnasioApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|solutionrelative:gimnasioapi\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|solutionrelative:gimnasioapi\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\controllers\\clasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|solutionrelative:gimnasioapi\\controllers\\clasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|solutionrelative:gimnasioapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|solutionrelative:gimnasioapi\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\models\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|solutionrelative:gimnasioapi\\models\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5490FBBB-D6DB-444E-BC4A-96D08277665C}|GimnasioApi\\GimnasioApi.csproj|c:\\gimnasioproyecto\\gimnasioapi\\gimnasioapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +58,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SesionController.cs",
+              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\SesionController.cs",
+              "RelativeDocumentMoniker": "GimnasioApi\\Controllers\\SesionController.cs",
+              "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\SesionController.cs",
+              "RelativeToolTip": "GimnasioApi\\Controllers\\SesionController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:31:20.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sesion.cs",
+              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Sesion.cs",
+              "RelativeDocumentMoniker": "GimnasioApi\\Models\\Sesion.cs",
+              "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Sesion.cs",
+              "RelativeToolTip": "GimnasioApi\\Models\\Sesion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:30:06.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Carrito.cs",
+              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Carrito.cs",
+              "RelativeDocumentMoniker": "GimnasioApi\\Models\\Carrito.cs",
+              "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Carrito.cs",
+              "RelativeToolTip": "GimnasioApi\\Models\\Carrito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:28:46.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "GimnasioApi\\Controllers\\CarritoController.cs",
+              "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\CarritoController.cs",
+              "RelativeToolTip": "GimnasioApi\\Controllers\\CarritoController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:27:09.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ClaseController.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\ClaseController.cs",
               "RelativeDocumentMoniker": "GimnasioApi\\Controllers\\ClaseController.cs",
               "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\ClaseController.cs",
               "RelativeToolTip": "GimnasioApi\\Controllers\\ClaseController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAAAIkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAKUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T04:14:17.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "GimnasioApi\\Models\\Producto.cs",
@@ -68,19 +132,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T03:08:30.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "GimnasioApi\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\GimnasioProyecto\\GimnasioApi\\GimnasioApi\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "GimnasioApi\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T03:07:37.913Z",
-              "EditorCaption": ""
             }
           ]
         }

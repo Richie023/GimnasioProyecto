@@ -36,10 +36,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVuYWRvclxDb25zdWx0YXJFbnRyZW5hZG9yZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GimnasioProyecto/GimnasioWeb/GimnasioWeb/Views/Entrenador/CrearClase.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVuYWRvclxDcmVhckNsYXNlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/GimnasioProyecto/GimnasioWeb/GimnasioWeb/Views/Entrenador/CrearEntrenador.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmVuYWRvclxDcmVhckVudHJlbmFkb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/GimnasioProyecto/GimnasioWeb/GimnasioWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GimnasioProyecto/GimnasioWeb/GimnasioWeb/Views/Home/Productos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/GimnasioProyecto/GimnasioWeb/GimnasioWeb/Views/Login/crearCuenta.cshtml]
