@@ -1,0 +1,73 @@
+﻿@model List<GimnasioWeb.Models.Carrito>
+
+@{
+    Layout = "~/Views/Shared/_Layout_Externo.cshtml";
+}
+
+<!-- Page Header -->
+<div class="container-fluid page-header mb-5 bg-primary text-white">
+    <div class="d-flex flex-column align-items-center justify-content-center pt-5" style="min-height: 400px;">
+        <h4 class="display-4 mb-3 text-uppercase font-weight-bold">Detalle de Factura</h4>
+        <div class="d-inline-flex">
+            <p class="m-0"><a class="text-white" href="/">Inicio</a></p>
+            <p class="m-0 px-2">/</p>
+            <p class="m-0">Factura</p>
+        </div>
+    </div>
+</div>
+
+<!-- Detalle de Factura -->
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold mb-4">Factura # @Model.FirstOrDefault()?.Consecutivo</h5>
+
+                    @if (ViewBag.Mensaje != null)
+                    {
+                        <div class="alert alert-info text-center">@ViewBag.Mensaje</div>
+                    }
+
+                    <div class="table-responsive">
+                        <table id="example" class="table table-bordered table-hover">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Producto</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Nombre</td>
+                                        <td>@item.Precio.ToString("N2")</td>
+                                        <td>@item.Unidades</td>
+                                        <td>@item.Total.ToString("N2")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#example").DataTable({
+            language: {
+                url: '//cdn.datatables.net/plug-ins/2.1.8/i18n/es-ES.json',
+            },
+            columnDefs: [
+                { targets: [0, 1, 2, 3], type: "string" }
+            ]
+        });
+    });
+</script>

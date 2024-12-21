@@ -3,6 +3,54 @@
     "ContainingType": "GimnasioApi.Controllers.CarritoController",
     "Method": "ConsultarCarrito",
     "RelativePath": "api/Carrito/ConsultarCarrito",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Consecutivo",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.CarritoController",
+    "Method": "ConsultarDetallesFactura",
+    "RelativePath": "api/Carrito/ConsultarDetallesFactura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Consecutivo",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.CarritoController",
+    "Method": "ConsultarFacturas",
+    "RelativePath": "api/Carrito/ConsultarFacturas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Consecutivo",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.CarritoController",
+    "Method": "PagarCarrito",
+    "RelativePath": "api/Carrito/PagarCarrito",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -19,6 +67,22 @@
     "ContainingType": "GimnasioApi.Controllers.CarritoController",
     "Method": "RegistrarCarrito",
     "RelativePath": "api/Carrito/RegistrarCarrito",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GimnasioApi.Models.Carrito",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GimnasioApi.Controllers.CarritoController",
+    "Method": "RemoverProductoCarrito",
+    "RelativePath": "api/Carrito/RemoverProductoCarrito",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -231,14 +295,14 @@
     "ContainingType": "GimnasioApi.Controllers.SesionController",
     "Method": "ConsultarSesion",
     "RelativePath": "api/Sesion/ConsultarSesion",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "GimnasioApi.Models.Sesion",
-        "IsRequired": true
+        "Name": "IdUsuario",
+        "Type": "System.Int64",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -1,0 +1,97 @@
+﻿@model List<GimnasioWeb.Models.Sesion>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Mi Sesiones</h5>
+
+        @if (ViewBag.Mensaje != null)
+        {
+            <div class="alert alert-secondary text-center">@ViewBag.Mensaje</div>
+        }
+
+        <div class="table-responsive">
+            <table id="example" class="table text-nowrap align-middle mb-0">
+                <thead>
+                    <tr class="border-2 border-bottom border-primary border-0">
+                        <th># de  clase</th>
+                        <th>Cupos</th>
+                        <th>Fecha</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.ConsecutivoClase 
+                            <td>@item.Cupos</td>
+                            <td>@item.Fecha.ToString("dd/MM/yyyy hh:mm:ss tt")</td>
+                            <td>
+                                <a id="AbrirModal" href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                   data-consecutivoProducto="@item.ConsecutivoClase">
+                                    <i class="fa fa-trash" style="font-size:1.6em;"></i>
+                                </a>
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <br><br />
+
+        
+             
+            }
+        </div>
+
+    </div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="width:650px">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Confirmación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <form asp-action="RemoverProductoCarrito" asp-controller="Carrito">
+                <div class="modal-body">
+
+                    <input type="hidden" id="ConsecutivoProducto" name="ConsecutivoProducto" value="">
+                    ¿Desea remover la sesion  <label id="ConsecutivoClase"></label>?
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Procesar</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+
+        $("#example").DataTable({
+            language: {
+                url: '//cdn.datatables.net/plug-ins/2.1.8/i18n/es-ES.json',
+            },
+            columnDefs: [
+                { targets: [0,1,2,3,4], type:"string" }
+            ]
+        });
+
+    });
+
+    $(document).on("click", "#AbrirModal", function() {
+
+      $("#ConsecutivoProducto").val( $(this).attr("data-consecutivoClase") );
+      $("#Nombre").text( $(this).attr("data-nombre") );
+
+    });

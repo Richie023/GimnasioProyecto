@@ -1,6 +1,7 @@
 ﻿using GimnasioWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http.Headers;
+using System.Text.Json;
 
 namespace GimnasioWeb.Controllers
 {
@@ -35,6 +36,8 @@ namespace GimnasioWeb.Controllers
                 return Json(result!.Codigo);
             }
         }
-
     }
 }
+
+
+       

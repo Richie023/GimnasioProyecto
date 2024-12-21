@@ -34,7 +34,7 @@ namespace GimnasioApi.Controllers
             using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
             {
                 var respuesta = new Respuesta();
-                var result = context.Execute("RegistrarUsuario", new { model.Identificacion, model.Nombre,model.Apellido, model.Correo, model.Contrasena,model.Telefono });
+                var result = context.Execute("RegistrarUsuario", new { model.Identificacion, model.Nombre, model.Correo, model.Contrasena,model.Telefono });
 
                 if (result > 0)
                 {

@@ -1,0 +1,127 @@
+﻿@model List<GimnasioWeb.Models.Carrito>
+
+@{
+    Layout = "~/Views/Shared/_Layout_Externo.cshtml";
+}
+
+<!-- Page Header -->
+<div class="container-fluid page-header mb-5 bg-primary text-white">
+    <div class="d-flex flex-column align-items-center justify-content-center pt-5" style="min-height: 400px;">
+        <h4 class="display-4 mb-3 text-uppercase font-weight-bold">Mi Carrito</h4>
+        <div class="d-inline-flex">
+            <p class="m-0"><a class="text-white" href="/">Inicio</a></p>
+            <p class="m-0 px-2">/</p>
+            <p class="m-0">Carrito</p>
+        </div>
+    </div>
+</div>
+
+<!-- Contenido del Carrito -->
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold mb-4">Mi Carrito</h5>
+
+                    @if (ViewBag.Mensaje != null)
+                    {
+                        <div class="alert alert-info text-center">@ViewBag.Mensaje</div>
+                    }
+
+                    <div class="table-responsive">
+                        <table id="example" class="table table-bordered table-hover">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Cantidad</th>
+                                    <th>Precio</th>
+                                    <th>Total</th>
+                                    <th>Fecha</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.ConsecutivoProducto - @item.Nombre</td>
+                                        <td>@item.Unidades</td>
+                                        <td>@item.Precio.ToString("N2")</td>
+                                        <td>@item.Total.ToString("N2")</td>
+                                        <td>@item.Fecha.ToString("dd/MM/yyyy hh:mm:ss tt")</td>
+                                        <td class="text-center">
+                                            <a id="AbrirModal" href="#"
+                                               class="btn btn-danger btn-sm"
+                                               data-bs-toggle="modal"
+                                               data-bs-target="#exampleModal"
+                                               data-consecutivoProducto="@item.ConsecutivoProducto"
+                                               data-nombre="@item.Nombre">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <p class="fs-5">Monto a cancelar: <strong>¢ @decimal.Parse(Context.Session.GetString("Total")!).ToString("N2")</strong></p>
+                        </div>
+                        @if (Context.Session.GetString("Total") != null && Context.Session.GetString("Total") != "0")
+                        {
+                            <div class="col-md-6 text-end">
+                                <form asp-action="PagarCarrito" asp-controller="Carrito">
+                                    <button type="submit" class="btn btn-primary px-4">Pagar</button>
+                                </form>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Confirmación -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Confirmación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-action="RemoverProductoCarrito" asp-controller="Carrito">
+                <div class="modal-body">
+                    <input type="hidden" id="ConsecutivoProducto" name="ConsecutivoProducto" value="">
+                    ¿Desea remover el producto <label id="Nombre"></label>?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Procesar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#example").DataTable({
+            language: {
+                url: '//cdn.datatables.net/plug-ins/2.1.8/i18n/es-ES.json',
+            },
+            columnDefs: [
+                { targets: [0,1,2,3,4], type:"string" }
+            ]
+        });
+    });
+
+    $(document).on("click", "#AbrirModal", function() {
+        $("#ConsecutivoProducto").val($(this).attr("data-consecutivoProducto"));
+        $("#Nombre").text($(this).attr("data-nombre"));
+    });
+</script>

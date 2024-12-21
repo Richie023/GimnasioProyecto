@@ -48,6 +48,39 @@
       }
     },
     "/api/Carrito/ConsultarCarrito": {
+      "get": {
+        "tags": [
+          "Carrito"
+        ],
+        "parameters": [
+          {
+            "name": "Consecutivo",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
+      }
+    },
+    "/api/Carrito/RemoverProductoCarrito": {
       "post": {
         "tags": [
           "Carrito"
@@ -71,6 +104,114 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
+      }
+    },
+    "/api/Carrito/PagarCarrito": {
+      "post": {
+        "tags": [
+          "Carrito"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Carrito"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Carrito"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Carrito"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
+      }
+    },
+    "/api/Carrito/ConsultarFacturas": {
+      "get": {
+        "tags": [
+          "Carrito"
+        ],
+        "parameters": [
+          {
+            "name": "Consecutivo",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "security": [
+          {
+            "oauth2": [ ]
+          }
+        ]
+      }
+    },
+    "/api/Carrito/ConsultarDetallesFactura": {
+      "get": {
+        "tags": [
+          "Carrito"
+        ],
+        "parameters": [
+          {
+            "name": "Consecutivo",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -556,29 +697,20 @@
       }
     },
     "/api/Sesion/ConsultarSesion": {
-      "post": {
+      "get": {
         "tags": [
           "Sesion"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Sesion"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Sesion"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Sesion"
-              }
+        "parameters": [
+          {
+            "name": "IdUsuario",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -812,6 +944,22 @@
           "Fecha": {
             "type": "string",
             "format": "date-time"
+          },
+          "Consecutivo": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "Precio": {
+            "type": "number",
+            "format": "double"
+          },
+          "Total": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
@@ -922,10 +1070,6 @@
             "nullable": true
           },
           "Identificacion": {
-            "type": "string",
-            "nullable": true
-          },
-          "Apellido": {
             "type": "string",
             "nullable": true
           },

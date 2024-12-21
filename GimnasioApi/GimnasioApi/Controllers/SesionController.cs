@@ -39,23 +39,24 @@ namespace GimnasioApi.Controllers
                 return Ok(respuesta);
             }
         }
-        [HttpPost]
+        [HttpGet]
         [Route("ConsultarSesion")]
-        public IActionResult ConsultarSesion(Sesion model)
+        public IActionResult ConsultarSesion(long IdUsuario)
         {
             using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
             {
                 var respuesta = new Respuesta();
-                var result = context.Execute("ConsultarSesiones", new { model.IdUsuario, model.ConsecutivoClase, model.Cupos });
+                var result = context.Query<Carrito>("ConsultarSesion", new { IdUsuario });
 
-                if (result > 0)
+                if (result.Any())
                 {
                     respuesta.Codigo = 0;
+                    respuesta.Contenido = result;
                 }
                 else
                 {
                     respuesta.Codigo = -1;
-                    respuesta.Mensaje = "La sesion no se ha actualizado correctamente en su carrito";
+                    respuesta.Mensaje = "No hay  clases en su sesion";
                 }
 
                 return Ok(respuesta);
@@ -63,3 +64,7 @@ namespace GimnasioApi.Controllers
         }
     }
 }
+
+
+
+

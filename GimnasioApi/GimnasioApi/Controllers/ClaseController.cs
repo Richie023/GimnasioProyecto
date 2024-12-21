@@ -53,7 +53,7 @@ namespace GimnasioApi.Controllers
             using (var context = new SqlConnection(_conf.GetSection("ConnectionStrings:DefaultConnection").Value))
             {
                 var respuesta = new Respuesta();
-                var result = context.QueryFirstOrDefault<Producto>("ConsultarClase", new { Consecutivo });
+                var result = context.QueryFirstOrDefault<Clase>("ConsultarClase", new { Consecutivo });
 
                 if (result != null)
                 {
